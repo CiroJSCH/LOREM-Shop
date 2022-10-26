@@ -1,0 +1,14 @@
+$font-family-monospace: 'Prompt', sans-serif;
+
+.nav-link {
+    font-family: 'Overpass', sans-serif;
+}
+
+.btn {
+    font-family: "Titillium Web", sans-serif !important;
+}
+
+
+@import "../../node_modules/bootstrap/scss/bootstrap";
+@import "../../node_modules/bootstrap/scss/_variables.scss";
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@300&family=Prompt:ital,wght@1,300&family=Titillium+Web:wght@300&display=swap');
