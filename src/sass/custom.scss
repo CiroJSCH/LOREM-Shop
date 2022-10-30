@@ -8,6 +8,19 @@ $font-family-monospace: 'Prompt', sans-serif;
     font-family: "Titillium Web", sans-serif !important;
 }
 
+.card-title {
+    color: white;
+    font-family: "Titillium Web", sans-serif;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.card-text {
+    color: white;
+    font-family: 'Overpass', sans-serif;
+    line-height: 1.5;
+}
+
 
 @import "../../node_modules/bootstrap/scss/bootstrap";
 @import "../../node_modules/bootstrap/scss/_variables.scss";
