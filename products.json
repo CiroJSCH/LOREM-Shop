@@ -1,0 +1,305 @@
+[
+    {   
+        "id": "1",
+        "name" : "JavaScript mug",
+        "image" : "https://shaper.com.mx/wp-content/uploads/2020/11/js-yellow-2.jpg",
+        "stock" : "10",
+        "brand" : "Some brand",
+        "category_id": "1",
+        "description" : "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus ipsam necessitatibus, nesciunt nostrum esse iste deserunt magnam nemo earum tenetur, quidem harum quas sint laudantium qui! Obcaecati molestiae aut similique.",
+        "price": "6.50",
+        "features": {
+            "material": "ceramic",
+            "size": "xx Oz",
+            "microwave_safe": "Yes"
+        }
+    },
+    {   
+        "id": "2",
+        "name" : "React dark mug",
+        "image" : "https://ih1.redbubble.net/image.398277233.9746/mug,standard,x334,right-pad,600x600,f8f8f8.u3.jpg",
+        "stock" : "10",
+        "brand" : "Some brand",
+        "category_id": "1",
+        "description" : "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus ipsam necessitatibus, nesciunt nostrum esse iste deserunt magnam nemo earum tenetur, quidem harum quas sint laudantium qui! Obcaecati molestiae aut similique.",
+        "price": "8.00",
+        "features": {
+            "material": "ceramic",
+            "size": "xx Oz",
+            "microwave_safe": "Yes"
+        }
+    },
+    {   
+        "id": "3",
+        "name" : "Backend developer dark cup",
+        "image" : "https://ih1.redbubble.net/image.334295013.3103/mug,tall,x1000,right-pad,1000x1000,f8f8f8.u3.jpg",
+        "stock" : "10",
+        "brand" : "Some brand",
+        "category_id": "1",
+        "description" : "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus ipsam necessitatibus, nesciunt nostrum esse iste deserunt magnam nemo earum tenetur, quidem harum quas sint laudantium qui! Obcaecati molestiae aut similique.",
+        "price": "11.00",
+        "features": {
+            "material": "ceramic",
+            "size": "xx Oz",
+            "microwave_safe": "Yes"
+        }
+    },
+    {   
+        "id": "4",
+        "name" : "Frontend developer dark cup",
+        "image" : "https://ih1.redbubble.net/image.347044663.3818/mug,standard,x334,right-pad,600x600,f8f8f8.u3.jpg",
+        "stock" : "10",
+        "brand" : "Some brand",
+        "category_id": "1",
+        "description" : "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus ipsam necessitatibus, nesciunt nostrum esse iste deserunt magnam nemo earum tenetur, quidem harum quas sint laudantium qui! Obcaecati molestiae aut similique.",
+        "price": "11.00",
+        "features": {
+            "material": "ceramic",
+            "size": "xx Oz",
+            "microwave_safe": "Yes"
+        }
+    }, 
+    {   
+        "id": "5",
+        "name" : "HTML5 white mug",
+        "image" : "https://http2.mlstatic.com/D_NQ_NP_744172-MLC49081211357_022022-O.webp",
+        "stock" : "10",
+        "brand" : "Some brand",
+        "category_id": "1",
+        "description" : "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus ipsam necessitatibus, nesciunt nostrum esse iste deserunt magnam nemo earum tenetur, quidem harum quas sint laudantium qui! Obcaecati molestiae aut similique.",
+        "price": "5.00",
+        "features": {
+            "material": "ceramic",
+            "size": "xx Oz",
+            "microwave_safe": "Yes"
+        }
+    },
+    {   
+        "id": "6",
+        "name" : "Software Development meme mug",
+        "image" : "https://ih1.redbubble.net/image.857753500.2964/mug,standard,x334,right-pad,600x600,f8f8f8.u3.jpg",
+        "stock" : "10",
+        "brand" : "Some brand",
+        "category_id": "1",
+        "description" : "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus ipsam necessitatibus, nesciunt nostrum esse iste deserunt magnam nemo earum tenetur, quidem harum quas sint laudantium qui! Obcaecati molestiae aut similique.",
+        "price": "12.00",
+        "features": {
+            "material": "ceramic",
+            "size": "xx Oz",
+            "microwave_safe": "Yes"
+        }
+    },
+    {   
+        "id": "7",
+        "name" : "Fullstack developer DNA mug",
+        "image" : "https://m.media-amazon.com/images/I/51ZZ0AWKYhL._AC_SY580_.jpg",
+        "stock" : "10",
+        "brand" : "Some brand",
+        "category_id": "1",
+        "description" : "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus ipsam necessitatibus, nesciunt nostrum esse iste deserunt magnam nemo earum tenetur, quidem harum quas sint laudantium qui! Obcaecati molestiae aut similique.",
+        "price": "25.00",
+        "features": {
+            "material": "ceramic",
+            "size": "xx Oz",
+            "microwave_safe": "Yes"
+        }
+    },
+    {   
+        "id": "8",
+        "name" : "Python pip dark mug",
+        "image" : "https://cdn.shopify.com/s/files/1/1668/0637/products/c9nhVDDc8ZJUH2pw5GCM64tD3DWxfr-right_large.png?v=1571439592",
+        "stock" : "10",
+        "brand" : "Some brand",
+        "category_id": "1",
+        "description" : "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus ipsam necessitatibus, nesciunt nostrum esse iste deserunt magnam nemo earum tenetur, quidem harum quas sint laudantium qui! Obcaecati molestiae aut similique.",
+        "price": "20.00",
+        "features": {
+            "material": "ceramic",
+            "size": "xx Oz",
+            "microwave_safe": "Yes"
+        }
+    },
+    {   
+        "id": "9",
+        "name" : "Love C# mug",
+        "image" : "https://cdn.shopify.com/s/files/1/1668/0637/products/mockup-353e96cf_large.png?v=1571439593",
+        "stock" : "10",
+        "brand" : "Some brand",
+        "category_id": "1",
+        "description" : "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus ipsam necessitatibus, nesciunt nostrum esse iste deserunt magnam nemo earum tenetur, quidem harum quas sint laudantium qui! Obcaecati molestiae aut similique.",
+        "price": "12.00",
+        "features": {
+            "material": "ceramic",
+            "size": "xx Oz",
+            "microwave_safe": "Yes"
+        }
+    },
+    {   
+        "id": "10",
+        "name" : "Java developer mug",
+        "image" : "https://i.etsystatic.com/21540718/r/il/5e35c8/3691874430/il_570xN.3691874430_3lwv.jpg",
+        "stock" : "10",
+        "brand" : "Some brand",
+        "category_id": "1",
+        "description" : "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus ipsam necessitatibus, nesciunt nostrum esse iste deserunt magnam nemo earum tenetur, quidem harum quas sint laudantium qui! Obcaecati molestiae aut similique.",
+        "price": "14.00",
+        "features": {
+            "material": "ceramic",
+            "size": "xx Oz",
+            "microwave_safe": "Yes"
+        }
+    },
+    {   
+        "id": "11",
+        "name" : "React hoodie",
+        "image" : "https://m.media-amazon.com/images/I/B1i3u9-Q-KS._AC_CLa%7C2140%2C2000%7CB1vYf4ddFTS.png%7C0%2C0%2C2140%2C2000%2B0.0%2C0.0%2C2140.0%2C2000.0_UY580_.png",
+        "stock" : "5",
+        "brand" : "Some brand",
+        "category_id": "2",
+        "description" : "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus ipsam necessitatibus, nesciunt nostrum esse iste deserunt magnam nemo earum tenetur, quidem harum quas sint laudantium qui! Obcaecati molestiae aut similique.",
+        "price": "30.00",
+        "features": {
+            "genre": "man",
+            "color": "black",
+            "size": "S"
+        }
+    },
+    {   
+        "id": "12",
+        "name" : "!False funny sweatshirt",
+        "image" : "https://images3.teeshirtpalace.com/images/productImages/ffc7346649-false-funny-coding-programmer-computer-programming--black-as-garment.jpg?width=767",
+        "stock" : "5",
+        "brand" : "Some brand",
+        "category_id": "2",
+        "description" : "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus ipsam necessitatibus, nesciunt nostrum esse iste deserunt magnam nemo earum tenetur, quidem harum quas sint laudantium qui! Obcaecati molestiae aut similique.",
+        "price": "25.00",
+        "features": {
+            "genre": "man",
+            "color": "grey",
+            "size": "M"
+        }
+    },
+    {   
+        "id": "13",
+        "name" : "1st rule hoodie",
+        "image" : "https://merchshop.in/wp-content/uploads/2019/06/rule-of-programming-black.jpg",
+        "stock" : "5",
+        "brand" : "Some brand",
+        "category_id": "2",
+        "description" : "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus ipsam necessitatibus, nesciunt nostrum esse iste deserunt magnam nemo earum tenetur, quidem harum quas sint laudantium qui! Obcaecati molestiae aut similique.",
+        "price": "35.00",
+        "features": {
+            "genre": "man",
+            "color": "black",
+            "size": "L"
+        }
+    },
+    {   
+        "id": "14",
+        "name" : "Missing semicolon Hoodie",
+        "image" : "https://res.cloudinary.com/teepublic/image/private/s--ahGw_07m--/t_Resized%20Artwork/c_crop,x_10,y_10/c_fit,h_620/c_crop,g_north_west,h_620,w_465,x_-14,y_0/g_north_west,u_upload:v1446840652:production:blanks:ymwlojdlb9pdlxgcmck4,x_-405,y_-276/b_rgb:eeeeee/c_limit,f_auto,h_313,q_90,w_313/v1451750473/production/designs/386624_1",
+        "stock" : "5",
+        "brand" : "Some brand",
+        "category_id": "2",
+        "description" : "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus ipsam necessitatibus, nesciunt nostrum esse iste deserunt magnam nemo earum tenetur, quidem harum quas sint laudantium qui! Obcaecati molestiae aut similique.",
+        "price": "35.00",
+        "features": {
+            "genre": "man",
+            "color": "black",
+            "size": "L"
+        }
+    },
+    {   
+        "id": "15",
+        "name" : "Python shirt",
+        "image" : "https://m.media-amazon.com/images/I/A13usaonutL._AC_CLa%7C2140%2C2000%7C71yw30LACUL.png%7C0%2C0%2C2140%2C2000%2B0.0%2C0.0%2C2140.0%2C2000.0_UY1000_.png",
+        "stock" : "5",
+        "brand" : "Some brand",
+        "category_id": "2",
+        "description" : "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus ipsam necessitatibus, nesciunt nostrum esse iste deserunt magnam nemo earum tenetur, quidem harum quas sint laudantium qui! Obcaecati molestiae aut similique.",
+        "price": "25.00",
+        "features": {
+            "genre": "unisex",
+            "color": "black",
+            "size": "S - M - L"
+        }
+    },
+    {   
+        "id": "16",
+        "name" : "C++ Hat",
+        "image" : "https://ih1.redbubble.net/image.2601536945.2187/ssrco,dad_hat,product,1A2336:ba214a0867,front,square,600x600-bg,f8f8f8.jpg",
+        "stock" : "5",
+        "brand" : "Some brand",
+        "category_id": "2",
+        "description" : "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus ipsam necessitatibus, nesciunt nostrum esse iste deserunt magnam nemo earum tenetur, quidem harum quas sint laudantium qui! Obcaecati molestiae aut similique.",
+        "price": "15.00",
+        "features": {
+            "genre": "unisex",
+            "color": "blue",
+            "size": "unique"
+        }
+    },
+    {   
+        "id": "17",
+        "name" : "Life coding long sleeve",
+        "image" : "https://res.cloudinary.com/teepublic/image/private/s--8DLPjAIU--/t_Resized%20Artwork/c_crop,x_10,y_10/c_fit,w_441/c_crop,g_north_west,h_588,w_441,x_0,y_6/g_north_west,u_upload:v1457548168:production:blanks:b4i6f2sx3pdskyp95pm9,x_-409,y_-299/b_rgb:eeeeee/c_limit,f_auto,h_630,q_90,w_630/v1590013222/production/designs/10400219_0.jpg",
+        "stock" : "5",
+        "brand" : "Some brand",
+        "category_id": "2",
+        "description" : "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus ipsam necessitatibus, nesciunt nostrum esse iste deserunt magnam nemo earum tenetur, quidem harum quas sint laudantium qui! Obcaecati molestiae aut similique.",
+        "price": "20.00",
+        "features": {
+            "genre": "men",
+            "color": "red",
+            "size": "S - M"
+        }
+    },
+    {   
+        "id": "18",
+        "name" : "C# shirt",
+        "image" : "https://m.media-amazon.com/images/I/A13usaonutL._AC_CLa%7C2140%2C2000%7C71uuesDZ8sL.png%7C0%2C0%2C2140%2C2000%2B0.0%2C0.0%2C2140.0%2C2000.0_UY1000_.png",
+        "stock" : "5",
+        "brand" : "Some brand",
+        "category_id": "2",
+        "description" : "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus ipsam necessitatibus, nesciunt nostrum esse iste deserunt magnam nemo earum tenetur, quidem harum quas sint laudantium qui! Obcaecati molestiae aut similique.",
+        "price": "22.00",
+        "features": {
+            "genre": "unisex",
+            "color": "black",
+            "size": "S - M - L - XL"
+        }
+    },
+    {   
+        "id": "19",
+        "name" : "JS Long Sleeve",
+        "image" : "https://res.cloudinary.com/teepublic/image/private/s--4L3Zc8i9--/t_Resized%20Artwork/c_crop,x_10,y_10/c_fit,w_357/c_crop,g_north_west,h_588,w_441,x_-42,y_-139/g_north_west,u_upload:v1446840616:production:blanks:k9ewuqulriy4nig8jfgz,x_-451,y_-438/b_rgb:eeeeee/c_limit,f_auto,h_630,q_90,w_630/v1539273850/production/designs/3302095_0.jpg",
+        "stock" : "5",
+        "brand" : "Some brand",
+        "category_id": "2",
+        "description" : "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus ipsam necessitatibus, nesciunt nostrum esse iste deserunt magnam nemo earum tenetur, quidem harum quas sint laudantium qui! Obcaecati molestiae aut similique.",
+        "price": "28.00",
+        "features": {
+            "genre": "man",
+            "color": "yellow",
+            "size": "M - L"
+        }
+    },
+    {
+      "id": "20",
+      "name": "Java hat",
+      "image": "https://ae01.alicdn.com/kf/Sc973e73bc357476cbffd2889b8a16bc2u/new-cap-hat-Java-Programming-Logo-Usa-Size-Baseball-Cap-S-M-L-Xl-2Xl-Xxxl.jpg_640x640.jpg",
+      "stock": "5",
+      "brand": "Some brand",
+      "category_id": "2",
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus ipsam necessitatibus, nesciunt nostrum esse iste deserunt magnam nemo earum tenetur, quidem harum quas sint laudantium qui! Obcaecati molestiae aut similique.",
+      "price": "20.00",
+      "features": {
+        "genre": "man",
+        "color": "brown",
+        "size": "unique"
+      }
+    }
+]
+
+
+
