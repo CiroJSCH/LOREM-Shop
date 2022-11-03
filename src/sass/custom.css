@@ -21,6 +21,18 @@
   line-height: 1.5;
 }
 
+.detailContainer {
+  min-height: calc(100vh - 8rem);
+}
+
+.featureItem {
+  font-family: "Overpass", sans-serif;
+}
+
+.badge {
+  font-family: "Overpass", sans-serif;
+}
+
 /*!
  * Bootstrap  v5.2.2 (https://getbootstrap.com/)
  * Copyright 2011-2022 The Bootstrap Authors

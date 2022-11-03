@@ -21,6 +21,17 @@ $font-family-monospace: 'Prompt', sans-serif;
     line-height: 1.5;
 }
 
+.detailContainer {
+    height: calc(100vh - 5rem);
+}
+
+.featureItem {
+    font-family: 'Overpass', sans-serif;
+}
+
+.badge {
+    font-family: 'Overpass', sans-serif;
+}
 
 @import "../../node_modules/bootstrap/scss/bootstrap";
 @import "../../node_modules/bootstrap/scss/_variables.scss";
