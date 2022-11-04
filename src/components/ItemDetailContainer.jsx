@@ -39,11 +39,12 @@ const ItemDetailContainer = () => {
     <div className="container mt-5 d-flex align-items-center detailContainer justify-content-center">
       <div className="card mb-3">
         <div className="row g-0">
-          <div className="col-md-4 align-self-center">
+          <div className="col-md-4 d-flex align-items-center justify-content-center" style={{"maxHeight":"27rem"}}>
             <img
               src={item.image}
-              className="img-fluid rounded-start h-100"
+              className="img-fluid rounded-start"
               alt={`${item.name} image`}
+              style={{"maxHeight":"100%"}}
             ></img>
           </div>
           <div className="col-md-8 bg-dark">
