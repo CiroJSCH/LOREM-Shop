@@ -2,8 +2,8 @@ import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import axios from "axios";
 import "../styles/itemDetailContainer.css";
-import { CgMathMinus, CgMathPlus } from "react-icons/cg";
-import { RiShoppingCart2Line } from "react-icons/ri";
+import { motion } from "framer-motion"
+import DetailCartButton from "./DetailCartButton";
 
 const ItemDetailContainer = () => {
   let { id } = useParams();
@@ -14,29 +14,12 @@ const ItemDetailContainer = () => {
       .get(`https://62ef11618d7bc7c2eb74befd.mockapi.io/products/${id}`)
       .then((response) => {
         setItem(response.data);
-        // console.log(response.data.features)
       })
       .catch((error) => console.log(error));
   }, []);
 
-  const AddCart = () => {
-    return (
-      <div className="d-flex flex-wrap gap-4">
-        <div className="buttons">
-          <button className="buttons-change button-minus"> <CgMathMinus /> </button>
-          <span className="buttons-counter">0</span>
-          <button className="buttons-change button-plus"> <CgMathPlus /> </button>
-        </div>
-        <button className="d-flex align-items-center justify-content-center gap-2 checkout">
-        <RiShoppingCart2Line /> Checkout
-        </button>
-      </div>
-
-    );
-  };
-
   return (
-    <div className="container mt-5 d-flex align-items-center detailContainer justify-content-center">
+    <motion.div className="container mt-5 d-flex align-items-center detailContainer justify-content-center" exit={{x: window.innerWidth, transition: {duration: 0.5} }}>
       <div className="card mb-3">
         <div className="row g-0">
           <div className="col-md-4 d-flex align-items-center justify-content-center" style={{"maxHeight":"27rem"}}>
@@ -75,13 +58,13 @@ const ItemDetailContainer = () => {
               </ul>
               <div className="d-flex flex-wrap justify-content-between mt-4 gap-5">
                 <span className="badge bg-primary fs-4" style={{"fontFamily" : "Titillium Web, sans-serif"}}>U$D {item.price}</span>
-                <AddCart />
+                <DetailCartButton />
               </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 
