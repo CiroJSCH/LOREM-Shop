@@ -1,17 +1,31 @@
+/// Hooks
+import { useState } from "react";
+
 // Icons
 import { CgMathMinus, CgMathPlus } from "react-icons/cg";
 import { RiShoppingCart2Line } from "react-icons/ri";
 
 const DetailCartButton = ({ stock }) => {
+
+  const [items, setItems] = useState(0);
+
+  const removeItem = () => {
+    items > 0 ? setItems(items - 1) : setItems(0) 
+  }
+
+  const addItem = () => {
+    items < stock ? setItems(items + 1) : setItems(stock) 
+  }
+
   return (
     <div className="d-flex flex-wrap gap-4 mb-2">
       <div className="buttons">
-        <button className="buttons-change button-minus">
+        <button className="buttons-change button-minus" onClick={removeItem}>
           {" "}
           <CgMathMinus />{" "}
         </button>
-        <span className="buttons-counter">0</span>
-        <button className="buttons-change button-plus">
+        <span className="buttons-counter">{items}</span>
+        <button className="buttons-change button-plus" onClick={addItem}>
           {" "}
           <CgMathPlus />{" "}
         </button>
