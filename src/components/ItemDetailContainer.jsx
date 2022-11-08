@@ -1,9 +1,14 @@
+// Libraries
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import axios from "axios";
-import "../styles/itemDetailContainer.css";
 import { motion } from "framer-motion"
+
+// Components
 import DetailCartButton from "./DetailCartButton";
+
+// Styles
+import "../styles/itemDetailContainer.css";
 
 const ItemDetailContainer = () => {
   let { id } = useParams();
@@ -57,8 +62,8 @@ const ItemDetailContainer = () => {
                   })}
               </ul>
               <div className="d-flex flex-wrap justify-content-between mt-4 gap-5">
-                <span className="badge bg-primary fs-4" style={{"fontFamily" : "Titillium Web, sans-serif"}}>U$D {item.price}</span>
-                <DetailCartButton />
+                <span className="badge bg-primary fs-4 align-self-center" style={{"fontFamily" : "Titillium Web, sans-serif"}}>U$D {item.price}</span>
+                <DetailCartButton stock={item.stock}/>
               </div>
             </div>
           </div>

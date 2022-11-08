@@ -1,3 +1,4 @@
+// Icons
 import { RiShoppingCart2Line } from "react-icons/ri";
 
 const CartWidget = () => {

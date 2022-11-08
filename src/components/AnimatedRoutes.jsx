@@ -1,7 +1,8 @@
+// Libraries
 import { Routes, Route, useLocation } from "react-router-dom";
-
 import { AnimatePresence } from  "framer-motion"
 
+// Components
 import ItemListContainer from "./ItemListContainer"
 import ItemDetailContainer from "./ItemDetailContainer";
 

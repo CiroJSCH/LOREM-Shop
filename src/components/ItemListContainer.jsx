@@ -1,13 +1,13 @@
+// Libraries
 import { useEffect, useState } from "react";
 import axios from "axios";
 import { Link, useParams } from "react-router-dom";
-
 import { motion } from "framer-motion";
 
 const ItemListContainer = () => {
   const [products, setProducts] = useState([]);
   const { category_id } = useParams();
-
+  
   useEffect(() => {
     axios
       .get("https://62ef11618d7bc7c2eb74befd.mockapi.io/products")
