@@ -4,11 +4,14 @@ import axios from "axios";
 import { Link, useParams } from "react-router-dom";
 import { motion } from "framer-motion";
 
+import { categoriesTitle } from "../util/categoriesData";
+
 const ItemListContainer = () => {
   const [products, setProducts] = useState([]);
   const { category_id } = useParams();
   
   useEffect(() => {
+    document.title = `Lorem Shop | ${categoriesTitle[category_id]}`
     axios
       .get("https://62ef11618d7bc7c2eb74befd.mockapi.io/products")
       .then((response) => {

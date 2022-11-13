@@ -4,3 +4,11 @@ export const categories = {
     "Keyboards": 3,
     "Books": 4,
 }
+
+export const categoriesTitle = {
+    undefined : "Home",
+    1 : "Mugs",
+    2 : "Clothes",
+    3 : "Keyboards",
+    4 : "Books",
+}

@@ -33,6 +33,10 @@ $font-family-monospace: 'Prompt', sans-serif;
     font-family: 'Overpass', sans-serif;
 }
 
+.table {
+    font-family: 'Overpass', sans-serif;
+}
+
 @import "../../node_modules/bootstrap/scss/bootstrap";
 @import "../../node_modules/bootstrap/scss/_variables.scss";
 @import url('https://fonts.googleapis.com/css2?family=Overpass:wght@300&family=Prompt:ital,wght@1,300&family=Titillium+Web:wght@300&display=swap');

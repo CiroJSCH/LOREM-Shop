@@ -27,7 +27,7 @@ const DetailCartButton = ({ stock }) => {
           <CgMathPlus />
         </button>
       </div>
-      <button className="d-flex align-items-center justify-content-center gap-2 checkout">
+      <button className="d-flex align-items-center justify-content-center gap-2 checkout" disabled={items === 0}>
         <RiShoppingCart2Line /> Add to cart
       </button>
       <span
