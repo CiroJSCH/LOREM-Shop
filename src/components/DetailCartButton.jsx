@@ -1,11 +1,14 @@
 /// Hooks
-import { useState } from "react";
+import { useState, useContext } from "react";
+
+// Context
+import { CartContext } from "../context/CartContext";
 
 // Icons
 import { CgMathMinus, CgMathPlus } from "react-icons/cg";
 import { RiShoppingCart2Line } from "react-icons/ri";
 
-const DetailCartButton = ({ stock }) => {
+const DetailCartButton = ({ item }) => {
   const [items, setItems] = useState(0);
 
   const removeItem = () => {
@@ -13,8 +16,10 @@ const DetailCartButton = ({ stock }) => {
   };
 
   const addItem = () => {
-    items < stock ? setItems(items + 1) : setItems(stock);
+    items < item.stock ? setItems(items + 1) : setItems(item.stock);
   };
+
+  const { addToCart }= useContext(CartContext)
 
   return (
     <div className="d-flex flex-wrap gap-4 mb-2">
@@ -27,7 +32,7 @@ const DetailCartButton = ({ stock }) => {
           <CgMathPlus />
         </button>
       </div>
-      <button className="d-flex align-items-center justify-content-center gap-2 checkout" disabled={items === 0}>
+      <button className="d-flex align-items-center justify-content-center gap-2 checkout" disabled={items === 0} onClick={() => addToCart(item, items)}>
         <RiShoppingCart2Line /> Add to cart
       </button>
       <span
@@ -38,7 +43,7 @@ const DetailCartButton = ({ stock }) => {
           minWidth: "9rem",
         }}
       >
-        Stock: {stock}
+        Stock: {item.stock}
       </span>
     </div>
   );
