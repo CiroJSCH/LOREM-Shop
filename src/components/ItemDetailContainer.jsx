@@ -24,7 +24,7 @@ const ItemDetailContainer = () => {
   }, []);
 
   return (
-    <motion.div className="container mt-5 d-flex align-items-center detailContainer justify-content-center" exit={{x: window.innerWidth, transition: {duration: 0.5} }}>
+    <motion.div className="container d-flex align-items-center detailContainer justify-content-center h-auto mt-5" exit={{x: window.innerWidth, transition: {duration: 0.5} }}>
       <div className="card mb-3">
         <div className="row g-0">
           <div className="col-md-4 d-flex align-items-center justify-content-center" style={{"maxHeight":"27rem"}}>

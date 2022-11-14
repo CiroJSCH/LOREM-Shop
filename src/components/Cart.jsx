@@ -59,9 +59,10 @@ const Cart = () => {
                       <div className="d-flex flex-column flex-md-row align-items-center gap-2">
                         <img
                           src={item.image}
-                          alt=""
+                          alt={`${item.name} thumbnail`}
                           width="70"
                           className="img-fluid rounded shadow-sm"
+                          style={{"width":"70px"}}
                         />
                         <div className="ml-3 d-inline-block">
                           <h5 className="mb-0">
