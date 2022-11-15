@@ -27,4 +27,9 @@ const App = () => {
 export default App;
 
 
-// TODO: LocalStorage carrito
+//* TODO: LocalStorage carrito
+//* TODO: Remover productos del carrito (Con alerta)
+// TODO: Quitar zona de añadir al carrito cuando ya añadi un item
+// TODO: Slider productos relacionados en ItemDetail
+// TODO: Banner página principal
+// TODO: Footer
