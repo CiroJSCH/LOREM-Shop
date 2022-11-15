@@ -1,5 +1,5 @@
 // Libraries
-import { useContext, useEffect } from "react";
+import { useContext, useEffect, useState } from "react";
 import { useNavigate } from "react-router";
 
 // Context
@@ -8,18 +8,23 @@ import { CartContext } from "../context/CartContext";
 // Util
 import { categoriesTitle } from "../util/categoriesData";
 
+// Icons
+import { TfiTrash } from "react-icons/tfi";
+
 // Img
 import imgEmptyCart from "../img/carro-vacio.png";
 
 const Cart = () => {
 
-  const { cartList } = useContext(CartContext);
+  const [cartList, setCartList] = useState([])
+  const { removeOfCart } = useContext(CartContext);
 
   const navigate = useNavigate()
 
   useEffect(() => {
     document.title = "Lorem Shop | Cart";
-  }, []);
+    setCartList(localStorage.getItem('cart') ? JSON.parse(localStorage.getItem('cart')) : [])
+  }, [localStorage.getItem('cart')]);
 
   return (
     <div>
@@ -34,20 +39,20 @@ const Cart = () => {
           <table className="table table-dark table-striped table-bordered">
             <thead className="table-dark">
               <tr>
-                <th scope="col" className="border-0 col-sm-1 col-md-3">
+                <th scope="col" className="border-0 col-sm-1 col-md-6">
                   <div className="p-2 px-3 text-uppercase">Product</div>
                 </th>
-                <th scope="col" className="border-0 col-sm-2">
+                <th scope="col" className="border-0 col-sm-2 col-md-1">
                   <div className="py-2 text-uppercase">Price</div>
                 </th>
-                <th scope="col" className="border-0 col-sm-2">
+                <th scope="col" className="border-0 col-sm-2 col-md-1">
                   <div className="py-2 text-uppercase">Quantity</div>
                 </th>
-                <th scope="col" className="border-0 col-sm-2">
+                <th scope="col" className="border-0 col-sm-2 col-md-1">
                   <div className="py-2 text-uppercase">Total</div>
                 </th>
-                <th scope="col" className="border-0 col-sm-1">
-                  <div className="py-2 text-uppercase">T</div>
+                <th scope="col" className="border-0 col-sm-1 col-md-1">
+                  <div className="py-2 text-uppercase">Remove</div>
                 </th>
               </tr>
             </thead>
@@ -64,7 +69,7 @@ const Cart = () => {
                           className="img-fluid rounded shadow-sm"
                           style={{"width":"70px"}}
                         />
-                        <div className="ml-3 d-inline-block">
+                        <div className="ml-3 d-inline-block text-center text-md-start">
                           <h5 className="mb-0">
                             {" "}
                             <p className="text-primary d-inline-block">
@@ -77,19 +82,19 @@ const Cart = () => {
                         </div>
                       </div>
                     </th>
-                    <td className="border-0 align-middle text-center text-md-start">
+                    <td className="align-middle text-center text-md-start">
                       <strong>${item.price}</strong>
                     </td>
-                    <td className="border-0 align-middle text-center text-md-start">
-                      <strong>{item.quantity}</strong>
+                    <td className="align-middle text-center text-md-start">
+                      <strong>{item.quantity} items</strong>
                     </td>
-                    <td className="border-0 align-middle text-center text-md-start">
+                    <td className="align-middle text-center text-md-start">
                       <strong>
                         ${parseInt(item.price) * parseInt(item.quantity)}
                       </strong>
                     </td>
-                    <td className="border-0 align-middle text-center text-md-start">
-                      <strong>X</strong>
+                    <td className="align-middle text-center text-md-start">
+                      <button className="remove" onClick={() => removeOfCart(item)}><TfiTrash style={{"color":"red", "fontSize":"1.5rem"}}/></button>
                     </td>
                   </tr>
                 );
