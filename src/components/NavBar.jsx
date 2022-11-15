@@ -12,7 +12,7 @@ import { BsFileEarmarkCode } from "react-icons/bs";
 
 const NavBar = () => {
   return (
-    <nav className="navbar navbar-expand-md navbar-dark bg-dark">
+    <nav className="navbar navbar-expand-md navbar-dark bg-dark border-bottom border-primary">
       <div className="container-fluid">
         <Link to="/" className="navbar-brand d-flex align-items-center gap-2">
           <BsFileEarmarkCode className="fs-2" />
