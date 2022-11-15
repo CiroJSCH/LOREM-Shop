@@ -2,7 +2,7 @@
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import axios from "axios";
-import { motion } from "framer-motion"
+import { motion } from "framer-motion";
 
 // Components
 import DetailCartButton from "./DetailCartButton";
@@ -24,15 +24,23 @@ const ItemDetailContainer = () => {
   }, []);
 
   return (
-    <motion.div className="container d-flex align-items-center detailContainer justify-content-center h-auto mt-5" exit={{x: window.innerWidth, transition: {duration: 0.5} }}>
+    <motion.div
+      className="container d-flex align-items-center detailContainer justify-content-center h-auto mt-5"
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      exit={{ opacity: 0 }}
+    >
       <div className="card mb-3">
         <div className="row g-0">
-          <div className="col-md-4 d-flex align-items-center justify-content-center" style={{"maxHeight":"27rem"}}>
+          <div
+            className="col-md-4 d-flex align-items-center justify-content-center"
+            style={{ maxHeight: "27rem" }}
+          >
             <img
               src={item.image}
               className="img-fluid rounded-start"
               alt={`${item.name} image`}
-              style={{"maxHeight":"100%"}}
+              style={{ maxHeight: "100%" }}
             ></img>
           </div>
           <div className="col-md-8 bg-dark">
@@ -62,8 +70,13 @@ const ItemDetailContainer = () => {
                   })}
               </ul>
               <div className="d-flex flex-wrap justify-content-between mt-4 gap-5">
-                <span className="badge bg-primary fs-4 align-self-center" style={{"fontFamily" : "Titillium Web, sans-serif"}}>U$D {item.price}</span>
-                <DetailCartButton item={item}/>
+                <span
+                  className="badge bg-primary fs-4 align-self-center"
+                  style={{ fontFamily: "Titillium Web, sans-serif" }}
+                >
+                  U$D {item.price}
+                </span>
+                <DetailCartButton item={item} />
               </div>
             </div>
           </div>
