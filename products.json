@@ -9,12 +9,12 @@
     "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus ipsam necessitatibus, nesciunt nostrum esse iste deserunt magnam nemo earum tenetur, quidem harum quas sint laudantium qui! Obcaecati molestiae aut similique.",
     "price": "6.50",
     "features": {
-      "material": "ceramic",
-      "size": "xx Oz",
-      "microwave": "Yes"
+     "material": "ceramic",
+     "size": "xx Oz",
+     "microwave": "Yes"
     }
-  },
-  {
+   },
+   {
     "id": "2",
     "name": "React dark mug",
     "image": "https://ih1.redbubble.net/image.398277233.9746/mug,standard,x334,right-pad,600x600,f8f8f8.u3.jpg",
@@ -24,12 +24,12 @@
     "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus ipsam necessitatibus, nesciunt nostrum esse iste deserunt magnam nemo earum tenetur, quidem harum quas sint laudantium qui! Obcaecati molestiae aut similique.",
     "price": "8.00",
     "features": {
-      "material": "ceramic",
-      "size": "xx Oz",
-      "microwave": "Yes"
+     "material": "ceramic",
+     "size": "xx Oz",
+     "microwave": "Yes"
     }
-  },
-  {
+   },
+   {
     "id": "3",
     "name": "Backend developer dark cup",
     "image": "https://ih1.redbubble.net/image.334295013.3103/mug,tall,x1000,right-pad,1000x1000,f8f8f8.u3.jpg",
@@ -39,12 +39,12 @@
     "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus ipsam necessitatibus, nesciunt nostrum esse iste deserunt magnam nemo earum tenetur, quidem harum quas sint laudantium qui! Obcaecati molestiae aut similique.",
     "price": "11.00",
     "features": {
-      "material": "ceramic",
-      "size": "xx Oz",
-      "microwave": "Yes"
+     "material": "ceramic",
+     "size": "xx Oz",
+     "microwave": "Yes"
     }
-  },
-  {
+   },
+   {
     "id": "4",
     "name": "Frontend developer dark cup",
     "image": "https://ih1.redbubble.net/image.347044663.3818/mug,standard,x334,right-pad,600x600,f8f8f8.u3.jpg",
@@ -54,12 +54,12 @@
     "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus ipsam necessitatibus, nesciunt nostrum esse iste deserunt magnam nemo earum tenetur, quidem harum quas sint laudantium qui! Obcaecati molestiae aut similique.",
     "price": "11.00",
     "features": {
-      "material": "ceramic",
-      "size": "xx Oz",
-      "microwave": "Yes"
+     "material": "ceramic",
+     "size": "xx Oz",
+     "microwave": "Yes"
     }
-  },
-  {
+   },
+   {
     "id": "5",
     "name": "HTML5 white mug",
     "image": "https://http2.mlstatic.com/D_NQ_NP_744172-MLC49081211357_022022-O.webp",
@@ -69,12 +69,12 @@
     "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus ipsam necessitatibus, nesciunt nostrum esse iste deserunt magnam nemo earum tenetur, quidem harum quas sint laudantium qui! Obcaecati molestiae aut similique.",
     "price": "5.00",
     "features": {
-      "material": "ceramic",
-      "size": "xx Oz",
-      "microwave": "Yes"
+     "material": "ceramic",
+     "size": "xx Oz",
+     "microwave": "Yes"
     }
-  },
-  {
+   },
+   {
     "id": "6",
     "name": "Software Development mug",
     "image": "https://ih1.redbubble.net/image.857753500.2964/mug,standard,x334,right-pad,600x600,f8f8f8.u3.jpg",
@@ -84,12 +84,12 @@
     "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus ipsam necessitatibus, nesciunt nostrum esse iste deserunt magnam nemo earum tenetur, quidem harum quas sint laudantium qui! Obcaecati molestiae aut similique.",
     "price": "12.00",
     "features": {
-      "material": "ceramic",
-      "size": "xx Oz",
-      "microwave": "Yes"
+     "material": "ceramic",
+     "size": "xx Oz",
+     "microwave": "Yes"
     }
-  },
-  {
+   },
+   {
     "id": "7",
     "name": "Fullstack developer mug",
     "image": "https://res.cloudinary.com/teepublic/image/private/s--mArMxdsp--/c_scale,w_468/c_lpad,g_north_west,h_801,w_1802,x_232,y_319/c_crop,h_801,w_691,x_125/c_mfit,g_north_west,u_misc:Mug%20Effect%20Coffee3%20Left/e_displace,fl_layer_apply,x_14,y_-2/c_mfit,g_north_east,u_misc:Mug%20Effect%20Coffee3%20Right/e_displace,fl_layer_apply,x_-14,y_-2/c_crop,h_801,w_656/g_north_west,l_upload:v1466696262:production:blanks:w00xdkhjelyrnp8i8wxr,x_-410,y_-235/b_rgb:523b2e/c_limit,f_auto,h_630,q_90,w_630/v1490751973/production/designs/1365774_1.jpg",
@@ -99,12 +99,12 @@
     "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus ipsam necessitatibus, nesciunt nostrum esse iste deserunt magnam nemo earum tenetur, quidem harum quas sint laudantium qui! Obcaecati molestiae aut similique.",
     "price": "25.00",
     "features": {
-      "material": "ceramic",
-      "size": "xx Oz",
-      "microwave": "Yes"
+     "material": "ceramic",
+     "size": "xx Oz",
+     "microwave": "Yes"
     }
-  },
-  {
+   },
+   {
     "id": "8",
     "name": "Python pip dark mug",
     "image": "https://cdn.shopify.com/s/files/1/1668/0637/products/c9nhVDDc8ZJUH2pw5GCM64tD3DWxfr-right_large.png?v=1571439592",
@@ -114,12 +114,12 @@
     "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus ipsam necessitatibus, nesciunt nostrum esse iste deserunt magnam nemo earum tenetur, quidem harum quas sint laudantium qui! Obcaecati molestiae aut similique.",
     "price": "20.00",
     "features": {
-      "material": "ceramic",
-      "size": "xx Oz",
-      "microwave": "Yes"
+     "material": "ceramic",
+     "size": "xx Oz",
+     "microwave": "Yes"
     }
-  },
-  {
+   },
+   {
     "id": "9",
     "name": "Love C# mug",
     "image": "https://cdn.shopify.com/s/files/1/1668/0637/products/mockup-353e96cf_large.png?v=1571439593",
@@ -129,12 +129,12 @@
     "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus ipsam necessitatibus, nesciunt nostrum esse iste deserunt magnam nemo earum tenetur, quidem harum quas sint laudantium qui! Obcaecati molestiae aut similique.",
     "price": "12.00",
     "features": {
-      "material": "ceramic",
-      "size": "xx Oz",
-      "microwave": "Yes"
+     "material": "ceramic",
+     "size": "xx Oz",
+     "microwave": "Yes"
     }
-  },
-  {
+   },
+   {
     "id": "10",
     "name": "Java developer mug",
     "image": "https://i.etsystatic.com/21540718/r/il/5e35c8/3691874430/il_570xN.3691874430_3lwv.jpg",
@@ -144,12 +144,12 @@
     "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus ipsam necessitatibus, nesciunt nostrum esse iste deserunt magnam nemo earum tenetur, quidem harum quas sint laudantium qui! Obcaecati molestiae aut similique.",
     "price": "14.00",
     "features": {
-      "material": "ceramic",
-      "size": "xx Oz",
-      "microwave": "Yes"
+     "material": "ceramic",
+     "size": "xx Oz",
+     "microwave": "Yes"
     }
-  },
-  {
+   },
+   {
     "id": "11",
     "name": "React hoodie",
     "image": "https://m.media-amazon.com/images/I/B1i3u9-Q-KS._AC_CLa%7C2140%2C2000%7CB1vYf4ddFTS.png%7C0%2C0%2C2140%2C2000%2B0.0%2C0.0%2C2140.0%2C2000.0_UY580_.png",
@@ -159,12 +159,12 @@
     "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus ipsam necessitatibus, nesciunt nostrum esse iste deserunt magnam nemo earum tenetur, quidem harum quas sint laudantium qui! Obcaecati molestiae aut similique.",
     "price": "30.00",
     "features": {
-      "genre": "man",
-      "color": "black",
-      "size": "S"
+     "genre": "man",
+     "color": "black",
+     "size": "S"
     }
-  },
-  {
+   },
+   {
     "id": "12",
     "name": "!False funny sweatshirt",
     "image": "https://images3.teeshirtpalace.com/images/productImages/ffc7346649-false-funny-coding-programmer-computer-programming--black-as-garment.jpg?width=767",
@@ -174,12 +174,12 @@
     "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus ipsam necessitatibus, nesciunt nostrum esse iste deserunt magnam nemo earum tenetur, quidem harum quas sint laudantium qui! Obcaecati molestiae aut similique.",
     "price": "25.00",
     "features": {
-      "genre": "man",
-      "color": "grey",
-      "size": "M"
+     "genre": "man",
+     "color": "grey",
+     "size": "M"
     }
-  },
-  {
+   },
+   {
     "id": "13",
     "name": "Arduino hoodie",
     "image": "https://image.spreadshirtmedia.net/image-server/v1/products/T20A1PA5098PT17X38Y46D115760718W28232H15146/views/1,width=650,height=650,appearanceId=1/sweater-t-shirt-with-the-small-arduino-jam-logo-on-the-front-and-the-text-48-hours-of-sweat-fun-and-arduino.jpg",
@@ -189,12 +189,12 @@
     "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus ipsam necessitatibus, nesciunt nostrum esse iste deserunt magnam nemo earum tenetur, quidem harum quas sint laudantium qui! Obcaecati molestiae aut similique.",
     "price": "35.00",
     "features": {
-      "genre": "man",
-      "color": "white",
-      "size": "M - L"
+     "genre": "man",
+     "color": "white",
+     "size": "M - L"
     }
-  },
-  {
+   },
+   {
     "id": "14",
     "name": "Github jacket",
     "image": "https://cdn.shopify.com/s/files/1/0051/4802/products/Invertocat_2.0_Hoodie_Mock_GithubShop-1_600x600_crop_center.jpg?v=1563301044",
@@ -204,12 +204,12 @@
     "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus ipsam necessitatibus, nesciunt nostrum esse iste deserunt magnam nemo earum tenetur, quidem harum quas sint laudantium qui! Obcaecati molestiae aut similique.",
     "price": "35.00",
     "features": {
-      "genre": "man",
-      "color": "black",
-      "size": "L"
+     "genre": "man",
+     "color": "black",
+     "size": "L"
     }
-  },
-  {
+   },
+   {
     "id": "15",
     "name": "Python shirt",
     "image": "https://m.media-amazon.com/images/I/A13usaonutL._AC_CLa%7C2140%2C2000%7C71yw30LACUL.png%7C0%2C0%2C2140%2C2000%2B0.0%2C0.0%2C2140.0%2C2000.0_UY1000_.png",
@@ -219,12 +219,12 @@
     "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus ipsam necessitatibus, nesciunt nostrum esse iste deserunt magnam nemo earum tenetur, quidem harum quas sint laudantium qui! Obcaecati molestiae aut similique.",
     "price": "25.00",
     "features": {
-      "genre": "unisex",
-      "color": "black",
-      "size": "S - M - L"
+     "genre": "unisex",
+     "color": "black",
+     "size": "S - M - L"
     }
-  },
-  {
+   },
+   {
     "id": "16",
     "name": "C++ Hat",
     "image": "https://ih1.redbubble.net/image.2601536945.2187/ssrco,dad_hat,product,1A2336:ba214a0867,front,square,600x600-bg,f8f8f8.jpg",
@@ -234,12 +234,12 @@
     "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus ipsam necessitatibus, nesciunt nostrum esse iste deserunt magnam nemo earum tenetur, quidem harum quas sint laudantium qui! Obcaecati molestiae aut similique.",
     "price": "25.00",
     "features": {
-      "genre": "unisex",
-      "color": "blue",
-      "size": "unique"
+     "genre": "unisex",
+     "color": "blue",
+     "size": "unique"
     }
-  },
-  {
+   },
+   {
     "id": "17",
     "name": "Life coding long sleeve",
     "image": "https://res.cloudinary.com/teepublic/image/private/s--8DLPjAIU--/t_Resized%20Artwork/c_crop,x_10,y_10/c_fit,w_441/c_crop,g_north_west,h_588,w_441,x_0,y_6/g_north_west,u_upload:v1457548168:production:blanks:b4i6f2sx3pdskyp95pm9,x_-409,y_-299/b_rgb:eeeeee/c_limit,f_auto,h_630,q_90,w_630/v1590013222/production/designs/10400219_0.jpg",
@@ -249,12 +249,12 @@
     "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus ipsam necessitatibus, nesciunt nostrum esse iste deserunt magnam nemo earum tenetur, quidem harum quas sint laudantium qui! Obcaecati molestiae aut similique.",
     "price": "20.00",
     "features": {
-      "genre": "men",
-      "color": "red",
-      "size": "S - M"
+     "genre": "men",
+     "color": "red",
+     "size": "S - M"
     }
-  },
-  {
+   },
+   {
     "id": "18",
     "name": "C# shirt",
     "image": "https://m.media-amazon.com/images/I/A13usaonutL._AC_CLa%7C2140%2C2000%7C71uuesDZ8sL.png%7C0%2C0%2C2140%2C2000%2B0.0%2C0.0%2C2140.0%2C2000.0_UY1000_.png",
@@ -264,12 +264,12 @@
     "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus ipsam necessitatibus, nesciunt nostrum esse iste deserunt magnam nemo earum tenetur, quidem harum quas sint laudantium qui! Obcaecati molestiae aut similique.",
     "price": "22.00",
     "features": {
-      "genre": "unisex",
-      "color": "black",
-      "size": "S - M - L - XL"
+     "genre": "unisex",
+     "color": "black",
+     "size": "S - M - L - XL"
     }
-  },
-  {
+   },
+   {
     "id": "19",
     "name": "JS Long Sleeve",
     "image": "https://res.cloudinary.com/teepublic/image/private/s--4L3Zc8i9--/t_Resized%20Artwork/c_crop,x_10,y_10/c_fit,w_357/c_crop,g_north_west,h_588,w_441,x_-42,y_-139/g_north_west,u_upload:v1446840616:production:blanks:k9ewuqulriy4nig8jfgz,x_-451,y_-438/b_rgb:eeeeee/c_limit,f_auto,h_630,q_90,w_630/v1539273850/production/designs/3302095_0.jpg",
@@ -279,12 +279,12 @@
     "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus ipsam necessitatibus, nesciunt nostrum esse iste deserunt magnam nemo earum tenetur, quidem harum quas sint laudantium qui! Obcaecati molestiae aut similique.",
     "price": "28.00",
     "features": {
-      "genre": "man",
-      "color": "yellow",
-      "size": "M - L"
+     "genre": "man",
+     "color": "yellow",
+     "size": "M - L"
     }
-  },
-  {
+   },
+   {
     "id": "20",
     "name": "Java hat",
     "image": "https://ae01.alicdn.com/kf/Sc973e73bc357476cbffd2889b8a16bc2u/new-cap-hat-Java-Programming-Logo-Usa-Size-Baseball-Cap-S-M-L-Xl-2Xl-Xxxl.jpg_640x640.jpg",
@@ -294,12 +294,12 @@
     "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus ipsam necessitatibus, nesciunt nostrum esse iste deserunt magnam nemo earum tenetur, quidem harum quas sint laudantium qui! Obcaecati molestiae aut similique.",
     "price": "20.00",
     "features": {
-      "genre": "man",
-      "color": "brown",
-      "size": "unique"
+     "genre": "man",
+     "color": "brown",
+     "size": "unique"
     }
-  },
-  {
+   },
+   {
     "id": "21",
     "name": "Keychron K4",
     "image": "https://m.media-amazon.com/images/I/415C8PoV5DL._SL500_.jpg",
@@ -309,12 +309,12 @@
     "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus ipsam necessitatibus, nesciunt nostrum esse iste deserunt magnam nemo earum tenetur, quidem harum quas sint laudantium qui! Obcaecati molestiae aut similique.",
     "price": "120.00",
     "features": {
-      "inalambric": "yes",
-      "languaje": "english",
-      "rgb": "no"
+     "inalambric": "yes",
+     "languaje": "english",
+     "rgb": "no"
     }
-  },
-  {
+   },
+   {
     "id": "22",
     "name": "Logitech G513",
     "image": "https://falabella.scene7.com/is/image/Falabella/15567087_1",
@@ -324,12 +324,12 @@
     "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus ipsam necessitatibus, nesciunt nostrum esse iste deserunt magnam nemo earum tenetur, quidem harum quas sint laudantium qui! Obcaecati molestiae aut similique.",
     "price": "100.00",
     "features": {
-      "inalambric": "ns",
-      "languaje": "english",
-      "rgb": "yes"
+     "inalambric": "ns",
+     "languaje": "english",
+     "rgb": "yes"
     }
-  },
-  {
+   },
+   {
     "id": "23",
     "name": "Logitech Pop Keys",
     "image": "https://www.venex.com.ar/products_images/1657119167_pop-keys-gallery-blast-18322.png",
@@ -339,12 +339,12 @@
     "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus ipsam necessitatibus, nesciunt nostrum esse iste deserunt magnam nemo earum tenetur, quidem harum quas sint laudantium qui! Obcaecati molestiae aut similique.",
     "price": "60.00",
     "features": {
-      "inalambric": "yes",
-      "languaje": "english",
-      "rgb": "no"
+     "inalambric": "yes",
+     "languaje": "english",
+     "rgb": "no"
     }
-  },
-  {
+   },
+   {
     "id": "24",
     "name": "RedDragon Kumara K552",
     "image": "https://www.soscomputacion.com.ar/22830-thickbox_default/teclado-mecanico-gamer-redragon-kumara-k552-qwerty-outemu-blue-espanol.jpg",
@@ -354,12 +354,12 @@
     "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus ipsam necessitatibus, nesciunt nostrum esse iste deserunt magnam nemo earum tenetur, quidem harum quas sint laudantium qui! Obcaecati molestiae aut similique.",
     "price": "55.00",
     "features": {
-      "inalambric": "no",
-      "languaje": "spanish",
-      "rgb": "no"
+     "inalambric": "no",
+     "languaje": "spanish",
+     "rgb": "no"
     }
-  },
-  {
+   },
+   {
     "id": "25",
     "name": "Razer Blackwidow V3",
     "image": "https://www.xt-pc.com.ar/img/productos/Pics_Prod/TEC701.jpg",
@@ -369,12 +369,12 @@
     "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus ipsam necessitatibus, nesciunt nostrum esse iste deserunt magnam nemo earum tenetur, quidem harum quas sint laudantium qui! Obcaecati molestiae aut similique.",
     "price": "55.00",
     "features": {
-      "inalambric": "no",
-      "languaje": "spanish",
-      "rgb": "yes"
+     "inalambric": "no",
+     "languaje": "spanish",
+     "rgb": "yes"
     }
-  },
-  {
+   },
+   {
     "id": "26",
     "name": "Razer Huntsman Mini",
     "image": "https://www.fujioka.com.br/arquivos/ids/169601-1000-1000/a_581763_alta_4.png?v=637365544345200000",
@@ -384,12 +384,12 @@
     "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus ipsam necessitatibus, nesciunt nostrum esse iste deserunt magnam nemo earum tenetur, quidem harum quas sint laudantium qui! Obcaecati molestiae aut similique.",
     "price": "95.00",
     "features": {
-      "inalambric": "no",
-      "languaje": "english",
-      "rgb": "yes"
+     "inalambric": "no",
+     "languaje": "english",
+     "rgb": "yes"
     }
-  },
-  {
+   },
+   {
     "id": "27",
     "name": "HyperX Alloy Origins",
     "image": "https://mauricomputacion.com.ar/images/productos/350x350/22596.webp",
@@ -399,12 +399,12 @@
     "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus ipsam necessitatibus, nesciunt nostrum esse iste deserunt magnam nemo earum tenetur, quidem harum quas sint laudantium qui! Obcaecati molestiae aut similique.",
     "price": "65.00",
     "features": {
-      "inalambric": "no",
-      "languaje": "spanish",
-      "rgb": "yes"
+     "inalambric": "no",
+     "languaje": "spanish",
+     "rgb": "yes"
     }
-  },
-  {
+   },
+   {
     "id": "28",
     "name": "RedDragon K630",
     "image": "https://www.maximus.com.ar/Temp/App_WebSite/App_PictureFiles/Items/6950376772251_800.jpg",
@@ -414,12 +414,12 @@
     "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus ipsam necessitatibus, nesciunt nostrum esse iste deserunt magnam nemo earum tenetur, quidem harum quas sint laudantium qui! Obcaecati molestiae aut similique.",
     "price": "45.00",
     "features": {
-      "inalambric": "yes",
-      "languaje": "english",
-      "rgb": "yes"
+     "inalambric": "yes",
+     "languaje": "english",
+     "rgb": "yes"
     }
-  },
-  {
+   },
+   {
     "id": "29",
     "name": "Logitech G PRO",
     "image": "https://app.contabilium.com/files/explorer/7026/Productos-Servicios/concepto-6010615.png",
@@ -429,12 +429,12 @@
     "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus ipsam necessitatibus, nesciunt nostrum esse iste deserunt magnam nemo earum tenetur, quidem harum quas sint laudantium qui! Obcaecati molestiae aut similique.",
     "price": "85.00",
     "features": {
-      "inalambric": "no",
-      "languaje": "english",
-      "rgb": "yes"
+     "inalambric": "no",
+     "languaje": "english",
+     "rgb": "yes"
     }
-  },
-  {
+   },
+   {
     "id": "30",
     "name": "Corsair K70 Mini",
     "image": "https://www.fullh4rd.com.ar/img/productos/Pics_Prod/teclado-gamer-corsair-k70-rgb-pro-mini-wireless-60-rgb-retroiluminado-cherry-mx-0.jpg",
@@ -444,27 +444,27 @@
     "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus ipsam necessitatibus, nesciunt nostrum esse iste deserunt magnam nemo earum tenetur, quidem harum quas sint laudantium qui! Obcaecati molestiae aut similique.",
     "price": "65.00",
     "features": {
-      "inalambric": "yes",
-      "languaje": "english",
-      "rgb": "yes"
+     "inalambric": "yes",
+     "languaje": "english",
+     "rgb": "yes"
     }
-  },
-  {
+   },
+   {
     "id": "31",
     "name": "Road to React",
-    "image": "https://m.media-amazon.com/images/I/415NZyoUobL._SX218_BO1,204,203,200_QL40_FMwebp_.jpg",
+    "image": "https://m.media-amazon.com/images/I/41m%2B5%2B-JRNL._SX342_SY445_QL70_ML2_.jpg",
     "stock": "15",
     "brand": "Some brand",
     "category_id": "4",
     "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus ipsam necessitatibus, nesciunt nostrum esse iste deserunt magnam nemo earum tenetur, quidem harum quas sint laudantium qui! Obcaecati molestiae aut similique.",
     "price": "30.00",
     "features": {
-      "autor": "Robin Wieruch",
-      "release": "April, 2022",
-      "pages": "388"
+     "autor": "Robin Wieruch",
+     "release": "April, 2022",
+     "pages": "388"
     }
-  },
-  {
+   },
+   {
     "id": "32",
     "name": "Eloquent JavaScript",
     "image": "https://m.media-amazon.com/images/I/51-5ZXYtcML.jpg",
@@ -474,27 +474,27 @@
     "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus ipsam necessitatibus, nesciunt nostrum esse iste deserunt magnam nemo earum tenetur, quidem harum quas sint laudantium qui! Obcaecati molestiae aut similique.",
     "price": "35.00",
     "features": {
-      "autor": "Marijn Haverbeke",
-      "release": "December, 2018",
-      "pages": "471"
+     "autor": "Marijn Haverbeke",
+     "release": "December, 2018",
+     "pages": "471"
     }
-  },
-  {
+   },
+   {
     "id": "33",
     "name": "HTML and CSS",
-    "image": "https://m.media-amazon.com/images/I/51-5ZXYtcML.jpg",
+    "image": "https://m.media-amazon.com/images/I/31b4K-hFH-L._SX395_BO1,204,203,200_.jpg",
     "stock": "15",
     "brand": "Some brand",
     "category_id": "4",
     "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus ipsam necessitatibus, nesciunt nostrum esse iste deserunt magnam nemo earum tenetur, quidem harum quas sint laudantium qui! Obcaecati molestiae aut similique.",
     "price": "15.00",
     "features": {
-      "autor": "Jon Duckett",
-      "release": "November, 2011",
-      "pages": "490"
+     "autor": "Jon Duckett",
+     "release": "November, 2011",
+     "pages": "490"
     }
-  },
-  {
+   },
+   {
     "id": "34",
     "name": "SQL: 3 in 1",
     "image": "https://m.media-amazon.com/images/I/411d34b3bjL._SX348_BO1,204,203,200_.jpg",
@@ -504,12 +504,12 @@
     "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus ipsam necessitatibus, nesciunt nostrum esse iste deserunt magnam nemo earum tenetur, quidem harum quas sint laudantium qui! Obcaecati molestiae aut similique.",
     "price": "15.00",
     "features": {
-      "autor": "Mark Reed",
-      "release": "July, 2022",
-      "pages": "346"
+     "autor": "Mark Reed",
+     "release": "July, 2022",
+     "pages": "346"
     }
-  },
-  {
+   },
+   {
     "id": "35",
     "name": "Python crash course",
     "image": "https://m.media-amazon.com/images/I/51OOCVBfCQL._SX377_BO1,204,203,200_.jpg",
@@ -519,12 +519,12 @@
     "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus ipsam necessitatibus, nesciunt nostrum esse iste deserunt magnam nemo earum tenetur, quidem harum quas sint laudantium qui! Obcaecati molestiae aut similique.",
     "price": "24.00",
     "features": {
-      "autor": "Eric Matthes",
-      "release": "May, 2019",
-      "pages": "544"
+     "autor": "Eric Matthes",
+     "release": "May, 2019",
+     "pages": "544"
     }
-  },
-  {
+   },
+   {
     "id": "36",
     "name": "Arduino for beginners",
     "image": "https://m.media-amazon.com/images/I/612MWwNccHL.jpg",
@@ -534,12 +534,12 @@
     "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus ipsam necessitatibus, nesciunt nostrum esse iste deserunt magnam nemo earum tenetur, quidem harum quas sint laudantium qui! Obcaecati molestiae aut similique.",
     "price": "25.00",
     "features": {
-      "autor": "Arsath Natheem",
-      "release": "November, 2021",
-      "pages": "293"
+     "autor": "Arsath Natheem",
+     "release": "November, 2021",
+     "pages": "293"
     }
-  },
-  {
+   },
+   {
     "id": "37",
     "name": "C++ programming languaje",
     "image": "https://m.media-amazon.com/images/I/512IjuTNc-L._SX402_BO1,204,203,200_.jpg",
@@ -549,12 +549,12 @@
     "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus ipsam necessitatibus, nesciunt nostrum esse iste deserunt magnam nemo earum tenetur, quidem harum quas sint laudantium qui! Obcaecati molestiae aut similique.",
     "price": "20.00",
     "features": {
-      "autor": "Bjarne Stroustrup",
-      "release": "August, 2013",
-      "pages": "1376"
+     "autor": "Arsath Natheem",
+     "release": "August, 2013",
+     "pages": "1376"
     }
-  },
-  {
+   },
+   {
     "id": "38",
     "name": "Intro to Ruby",
     "image": "https://m.media-amazon.com/images/I/51K-WPsbYdL._SX404_BO1,204,203,200_.jpg",
@@ -564,12 +564,12 @@
     "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus ipsam necessitatibus, nesciunt nostrum esse iste deserunt magnam nemo earum tenetur, quidem harum quas sint laudantium qui! Obcaecati molestiae aut similique.",
     "price": "28.00",
     "features": {
-      "autor": "John Elder",
-      "release": "May, 2016",
-      "pages": "165"
+     "autor": "John Elder",
+     "release": "May, 2016",
+     "pages": "165"
     }
-  },
-  {
+   },
+   {
     "id": "39",
     "name": "Swift programming",
     "image": "https://m.media-amazon.com/images/I/41NOPhaTmmL.jpg",
@@ -579,12 +579,12 @@
     "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus ipsam necessitatibus, nesciunt nostrum esse iste deserunt magnam nemo earum tenetur, quidem harum quas sint laudantium qui! Obcaecati molestiae aut similique.",
     "price": "14.00",
     "features": {
-      "autor": "Daniel Bell",
-      "release": "October, 2019",
-      "pages": "150"
+     "autor": "Daniel Bell",
+     "release": "October, 2019",
+     "pages": "150"
     }
-  },
-  {
+   },
+   {
     "id": "40",
     "name": "C# Programming languaje",
     "image": "https://m.media-amazon.com/images/I/51+jdVSmf7L._SX398_BO1,204,203,200_.jpg",
@@ -594,9 +594,9 @@
     "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus ipsam necessitatibus, nesciunt nostrum esse iste deserunt magnam nemo earum tenetur, quidem harum quas sint laudantium qui! Obcaecati molestiae aut similique.",
     "price": "134.00",
     "features": {
-      "autor": "Anders Hejlsberg",
-      "release": "October, 2010",
-      "pages": "864"
+     "autor": "Anders Hejlsberg",
+     "release": "October, 2010",
+     "pages": "864"
     }
-  }
+   }
 ]
