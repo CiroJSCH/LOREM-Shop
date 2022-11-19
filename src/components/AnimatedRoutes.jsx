@@ -5,7 +5,8 @@ import { AnimatePresence } from  "framer-motion"
 // Components
 import ItemListContainer from "./ItemListContainer"
 import ItemDetailContainer from "./ItemDetailContainer";
-import Cart from "./Cart"; 
+import Cart from "./Cart";
+import Banner from "./Banner"; 
 
 const AnimatedRoutes = () => {
 
@@ -14,7 +15,7 @@ const AnimatedRoutes = () => {
   return (
     <AnimatePresence>
       <Routes location={location} key={location.pathname}>
-        <Route path="/" element={<ItemListContainer />} />
+        <Route path="/" element={<Banner />} />
         <Route path="/category/:category_id" element={<ItemListContainer />} />
         <Route path="/item/:id" element={<ItemDetailContainer />} />
         <Route path="/cart" element={<Cart />}/>
