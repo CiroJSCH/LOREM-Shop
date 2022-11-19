@@ -59,7 +59,7 @@ const Cart = () => {
             <tbody>
               {cartList?.map((item) => {
                 return (
-                  <tr key={item.id}>
+                  <tr key={item.num}>
                     <th scope="row" className="border-0">
                       <div className="d-flex flex-column flex-md-row align-items-center gap-2">
                         <img
