@@ -80,7 +80,7 @@ const ItemDetailContainer = () => {
                 <p className="card-text fs-5 mt-3">{item.description}</p>
                 <ul>
                   <p className="text-primary card-text fs-5 my-3">
-                    Características
+                    Features
                   </p>
                   {item.features &&
                     Object.keys(item.features).map((feature, index) => {
