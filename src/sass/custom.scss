@@ -1,54 +1,45 @@
-$font-family-monospace: 'Prompt', sans-serif;
+$font-family-monospace: "Prompt", sans-serif;
 
 .nav-link {
-    font-family: 'Overpass', sans-serif;
+  font-family: "Overpass", sans-serif;
 }
 
 .btn {
-    font-family: "Titillium Web", sans-serif !important;
+  font-family: "Titillium Web", sans-serif !important;
 }
 
 .card-title {
-    color: white;
-    font-family: "Titillium Web", sans-serif;
-    font-size: 1.2rem;
-    font-weight: 700;
+  color: white;
+  font-family: "Titillium Web", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 700;
 }
 
 .card-text {
-    color: white;
-    font-family: 'Overpass', sans-serif;
-    line-height: 1.5;
+  color: white;
+  font-family: "Overpass", sans-serif;
+  line-height: 1.5;
 }
 
 .detailContainer {
-    height: calc(100vh - 5rem);
+  height: calc(100vh - 5rem);
 }
 
-.featureItem {
-    font-family: 'Overpass', sans-serif;
-}
-
-.badge {
-    font-family: 'Overpass', sans-serif;
-}
-
-.table {
-    font-family: 'Overpass', sans-serif;
+.featureItem,
+.badge,
+.table,
+.swalert {
+  font-family: "Overpass", sans-serif;
 }
 
 .remove {
-    border: none;
-    background: none;
-    &:hover{
-        opacity: 0.7;
-    }
-}
-
-.swalert {
-    font-family: 'Overpass', sans-serif;
+  border: none;
+  background: none;
+  &:hover {
+    opacity: 0.7;
+  }
 }
 
 @import "../../node_modules/bootstrap/scss/bootstrap";
 @import "../../node_modules/bootstrap/scss/_variables.scss";
-@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@300&family=Prompt:ital,wght@1,300&family=Titillium+Web:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@300&family=Prompt:ital,wght@1,300&family=Titillium+Web:wght@300&display=swap");

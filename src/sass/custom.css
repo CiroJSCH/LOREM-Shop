@@ -25,15 +25,10 @@
   height: calc(100vh - 5rem);
 }
 
-.featureItem {
-  font-family: "Overpass", sans-serif;
-}
-
-.badge {
-  font-family: "Overpass", sans-serif;
-}
-
-.table {
+.featureItem,
+.badge,
+.table,
+.swalert {
   font-family: "Overpass", sans-serif;
 }
 
@@ -43,10 +38,6 @@
 }
 .remove:hover {
   opacity: 0.7;
-}
-
-.swalert {
-  font-family: "Overpass", sans-serif;
 }
 
 /*!

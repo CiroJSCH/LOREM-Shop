@@ -1,0 +1,124 @@
+.banner {
+  background: linear-gradient(220deg, #6c757d, #343a40 60%);
+  min-height: calc(100vh - 3.7rem);
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  padding: 2rem;
+}
+.banner div {
+  width: 100%;
+  height: 50%;
+  font-family: "Overpass", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  gap: 2rem;
+}
+.banner div h1 {
+  color: #20c997;
+  line-height: 1.5;
+}
+.banner div h2 {
+  color: white;
+  font-size: 2rem;
+  text-align: center;
+  line-height: 1.5;
+}
+.banner div .typewriter {
+  color: #20c997;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-size: 2rem;
+  min-height: 12rem;
+}
+.banner div .contact-button {
+  width: 9rem;
+  min-height: 3rem;
+  background-color: transparent;
+  border: 2px solid #20c997;
+  color: white;
+  font-family: "Titillium Web", sans-serif;
+  font-size: 1.2rem;
+  border-radius: 10px;
+  font-weight: bold;
+  transition: 0.5s all ease-in-out;
+}
+.banner div .contact-button:hover {
+  background-color: #20c997;
+  border: 2px solid transparent;
+}
+.banner .ilustration {
+  background: url("/Software-Developer.png") no-repeat center/cover;
+  width: 100%;
+  height: 20rem;
+}
+@media screen and (min-width: 667px) {
+  .banner div h1 {
+    font-size: 3rem;
+  }
+  .banner div h2 {
+    font-size: 2.5rem;
+  }
+  .banner div .typewriter {
+    font-size: 2.5rem;
+    min-height: 10rem;
+  }
+  .banner .ilustration {
+    background: url("/Software-Developer.png") no-repeat center/contain;
+  }
+}
+@media screen and (min-width: 940px) {
+  .banner {
+    padding-top: 0;
+    flex-direction: row;
+    align-items: center;
+    gap: 0;
+  }
+  .banner div h1 {
+    font-size: 2.7rem;
+  }
+  .banner div h2 {
+    font-size: 1.8rem;
+  }
+  .banner div .typewriter {
+    font-size: 2rem;
+    min-height: 10rem;
+  }
+  .banner .ilustration {
+    height: 25rem;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .banner div {
+    gap: 1rem;
+    width: 100%;
+  }
+  .banner div .typewriter {
+    flex-direction: row;
+  }
+  .banner .ilustration {
+    height: 30rem;
+  }
+}
+@media screen and (min-width: 1600px) {
+  .banner div {
+    gap: 1rem;
+    width: 100%;
+  }
+  .banner div h1 {
+    font-size: 4rem;
+  }
+  .banner div h2 {
+    font-size: 3rem;
+  }
+  .banner div .typewriter {
+    font-size: 3rem;
+  }
+  .banner .ilustration {
+    height: 40rem;
+  }
+}/*# sourceMappingURL=banner.css.map */
