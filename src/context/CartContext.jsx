@@ -17,42 +17,36 @@ const CartContextProvider = ({ children }) => {
   }, []);
 
   const addToCart = (product, quantity) => {
+
     let tempCart = JSON.parse(localStorage.getItem("cart")) || [];
 
     let inCart = tempCart.find((item) => {
-      return item.id === product.id;
+      return item.num === product.num;
     });
-
+    
     if (!inCart) {
-      product["quantity"] = quantity;
+      product["quantity"] = parseInt(quantity);
       tempCart.push(product);
       localStorage.setItem("cart", JSON.stringify(tempCart));
       setCartList(tempCart);
     } else {
-      console.log(tempCart);
       let actualCart = tempCart.map((item, index) => {
-        if (item.id === product.id) {
-          // parseInt(tempCart[index]["quantity"]) + quantity >= tempCart[index]["stock"]
-          //   ? (tempCart[index]["quantity"] = parseInt(tempCart[index]["stock"]))
-          //   : (tempCart[index]["quantity"] =
-          //       parseInt(tempCart[index]["quantity"]) + quantity);
-          tempCart[index]["quantity"] = parseInt(tempCart[index]["quantity"]) + quantity;
+        if (item.num === product.num) {
+          parseInt(tempCart[index]["quantity"]) + quantity >= parseInt(tempCart[index]["stock"]) ? 
+          (tempCart[index]["quantity"] = parseInt(tempCart[index]["stock"]))
+          : 
+          (tempCart[index]["quantity"] = parseInt(tempCart[index]["quantity"]) + quantity);
         }
         return tempCart[index];
       });
-      console.log(actualCart);
       localStorage.setItem("cart", JSON.stringify(actualCart));
       setCartList(actualCart);
     }
-
-    // localStorage.setItem("cart", JSON.stringify([...cartList, product]));
-    // setCartList([...cartList, product]);
-    // console.log(inCart)
   };
 
   const removeOfCart = (product) => {
     MySwal.fire({
-      title: <h2 className="swalert">Do you want to delete this product?</h2>,
+      title: <span className="swalert">Do you want to delete this product?</span>,
       showDenyButton: true,
       confirmButtonText: <p className="swalert">Yes</p>,
       denyButtonText: <p className="swalert">Cancel</p>,
@@ -62,15 +56,17 @@ const CartContextProvider = ({ children }) => {
       if (result.isConfirmed) {
         localStorage.setItem(
           "cart",
-          JSON.stringify(cartList.filter((item) => item.id !== product.id))
+          JSON.stringify(cartList.filter((item) => item.num !== product.num))
         );
-        setCartList(cartList.filter((item) => item.id !== product.id));
+        setCartList(cartList.filter((item) => item.num !== product.num));
       }
     });
   };
 
   const calcItemsQuantity = (cartList) => {
-    return cartList.map((item) => item.quantity).reduce((a, b) => a + b, 0);
+    return parseInt(
+      cartList.map((item) => item.quantity).reduce((a, b) => a + b, 0)
+    );
   };
 
   return (
