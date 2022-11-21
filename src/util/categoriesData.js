@@ -6,7 +6,7 @@ export const categories = {
 }
 
 export const categoriesTitle = {
-    undefined : "All products",
+    undefined : "Home",
     1 : "Mugs",
     2 : "Clothes",
     3 : "Keyboards",
