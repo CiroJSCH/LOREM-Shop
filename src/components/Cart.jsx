@@ -5,102 +5,104 @@ import { useNavigate } from "react-router";
 // Context
 import { CartContext } from "../context/CartContext";
 
-// Util
-import { categoriesTitle } from "../util/categoriesData";
-
 // Icons
 import { TfiTrash } from "react-icons/tfi";
 
 // Img
 import imgEmptyCart from "../img/carro-vacio.png";
+import summary from "/summary.svg";
 
 const Cart = () => {
+  const [cartList, setCartList] = useState([]);
+  const [total, setTotal] = useState(0);
 
-  const [cartList, setCartList] = useState([])
   const { removeOfCart } = useContext(CartContext);
 
-  const navigate = useNavigate()
+  const navigate = useNavigate();
 
   useEffect(() => {
     document.title = "Lorem Shop | Cart";
-    setCartList(localStorage.getItem('cart') ? JSON.parse(localStorage.getItem('cart')) : [])
-  }, [localStorage.getItem('cart')]);
+    setCartList(
+      localStorage.getItem("cart")
+        ? JSON.parse(localStorage.getItem("cart"))
+        : []
+    );
+    let tot = 0;
+    JSON.parse(localStorage.getItem("cart")).map(item => {
+      tot += parseFloat(item.price * item.quantity)
+    })
+    setTotal(tot);
+  }, [localStorage.getItem("cart")]);
 
   return (
     <div>
       {cartList.length === 0 ? (
         <div className="d-flex flex-column align-items-center mt-5 gap-3">
           <img src={imgEmptyCart} alt="" className="img-fluid" />
-          <h1 className="text-primary text-center font-monospace fs-1">YOU DON'T HAVE PRODUCTS YET</h1>
-          <button onClick={() => navigate('/')} className="checkout mt-5">Go Shopping</button>
+          <h1 className="text-primary text-center font-monospace fs-1">
+            YOU DON'T HAVE PRODUCTS YET
+          </h1>
+          <button onClick={() => navigate("/")} className="checkout my-5">
+            Go Shopping
+          </button>
         </div>
       ) : (
-        <div className="table-responsive">
-          <table className="table table-dark table-striped table-bordered">
-            <thead className="table-dark">
-              <tr>
-                <th scope="col" className="border-0 col-sm-1 col-md-6">
-                  <div className="p-2 px-3 text-uppercase">Product</div>
-                </th>
-                <th scope="col" className="border-0 col-sm-2 col-md-1">
-                  <div className="py-2 text-uppercase">Price</div>
-                </th>
-                <th scope="col" className="border-0 col-sm-2 col-md-1">
-                  <div className="py-2 text-uppercase">Quantity</div>
-                </th>
-                <th scope="col" className="border-0 col-sm-2 col-md-1">
-                  <div className="py-2 text-uppercase">Total</div>
-                </th>
-                <th scope="col" className="border-0 col-sm-1 col-md-1">
-                  <div className="py-2 text-uppercase">Remove</div>
-                </th>
-              </tr>
-            </thead>
-            <tbody>
-              {cartList?.map((item) => {
-                return (
-                  <tr key={item.num}>
-                    <th scope="row" className="border-0">
-                      <div className="d-flex flex-column flex-md-row align-items-center gap-2">
-                        <img
-                          src={item.image}
-                          alt={`${item.name} thumbnail`}
-                          width="70"
-                          className="img-fluid rounded shadow-sm"
-                          style={{"width":"70px"}}
-                        />
-                        <div className="ml-3 d-inline-block text-center text-md-start">
-                          <h5 className="mb-0">
-                            {" "}
-                            <p className="text-primary d-inline-block">
-                              {item.name}
-                            </p>
-                          </h5>
-                          <span className="text-secondary d-inline-block">
-                            Category: {categoriesTitle[item.category_id]}
-                          </span>
+        <div className="container-sm my-3">
+          {cartList.length > 0 && (
+            <div className="row d-flex justify-content-center">
+              <div className="col-12 col-md-6 col-xl-5 bg-dark py-3 mb-5 border border-primary rounded">
+                <img
+                  className="img-fluid mx-auto d-block"
+                  src={summary}
+                  alt=""
+                />
+                <h2 className="fs-2 text-center mx-auto text-white w-75 py-3 border-top border-primary">
+                  SUMMARY
+                </h2>
+                {cartList?.map((item) => {
+                  return (
+                    <div
+                      key={item.num}
+                      className="px-2 py-3 mx-auto w-100 d-flex align-items-center justify-content-between border-bottom"
+                    >
+                      <img
+                        src={item.image}
+                        alt=""
+                        className="img-fluid"
+                        style={{ width: "70px", maxHeight: "70px" }}
+                      />
+                      <div className="d-flex gap-1 text-end">
+                        <div className="d-flex flex-column gap-1">
+                          <p className="text-primary">{`${item.name} x${item.quantity}`}</p>
+                          <p className="text-white">
+                            US${" "}
+                            {`${parseFloat(item.quantity * item.price).toFixed(
+                              2
+                            )}`}
+                          </p>
                         </div>
+                        <button
+                          className="remove"
+                          onClick={() => removeOfCart(item)}
+                        >
+                          <TfiTrash
+                            style={{ color: "red", fontSize: "1.5rem" }}
+                          />
+                        </button>
                       </div>
-                    </th>
-                    <td className="align-middle text-center text-md-start">
-                      <strong>${item.price}</strong>
-                    </td>
-                    <td className="align-middle text-center text-md-start">
-                      <strong>{item.quantity} items</strong>
-                    </td>
-                    <td className="align-middle text-center text-md-start">
-                      <strong>
-                        ${parseInt(item.price) * parseInt(item.quantity)}
-                      </strong>
-                    </td>
-                    <td className="align-middle text-center text-md-start">
-                      <button className="remove" onClick={() => removeOfCart(item)}><TfiTrash style={{"color":"red", "fontSize":"1.5rem"}}/></button>
-                    </td>
-                  </tr>
-                );
-              })}
-            </tbody>
-          </table>
+                    </div>
+                  );
+                })}
+                <div className="px-2 py-3 mx-auto w-75 d-flex align-items-center justify-content-between mt-3 fs-3">
+                  <p className="text-white">TOTAL:</p>
+                  <p className="text-primary">${total.toFixed(2)}</p>
+                </div>
+                <button className="checkout w-75 mx-auto d-block mt-3 mb-5">
+                  CHECKOUT
+                </button>
+              </div>
+            </div>
+          )}
         </div>
       )}
     </div>
