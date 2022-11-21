@@ -124,9 +124,9 @@ const ItemDetailContainer = () => {
                   style={{ maxHeigth: "20rem" }}
                 >
                   <img
-                    className="card-img-top"
+                    className="card-img-top bg-white"
                     src={item.image}
-                    style={{maxHeight: "22rem", minWidth: "18rem"}}
+                    style={{maxHeight: "20rem", minWidth: "18rem"}}
                   />
                   <div className="card-body">
                     <h5 className="card-title">{item.name}</h5>
