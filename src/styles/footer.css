@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@300&family=Prompt:ital,wght@1,300&family=Titillium+Web:wght@300&display=swap");
+
+:root {
+    --primary: #20c997;
+    --secondary: #343a40;
+}
+
+body {
+    font-family: "Overpass", sans-serif !important;
+}
+
+a {
+  -webkit-transition: 0.3s all ease;
+  -o-transition: 0.3s all ease;
+  transition: 0.3s all ease;
+}
+a,
+a:hover {
+  text-decoration: none !important;
+}
+
+.content {
+  height: 70vh;
+}
+
+.footer-20192 {
+  position: relative;
+  color: #fff;
+  padding: 7rem 0;
+  background-color: var(--secondary);
+}
+.footer-20192 .container {
+  position: relative;
+}
+.footer-20192 h3 {
+  font-size: 16px;
+  margin-bottom: 10px;
+  margin-top: 0;
+  line-height: 1.5;
+}
+.footer-20192 .links li {
+  margin-bottom: 10px;
+  line-height: 1.5;
+  display: block;
+}
+.footer-20192 .links li a {
+  color: #666873;
+}
+.footer-20192 .links li a:hover {
+  color: #fff;
+}
+.footer-20192 .social li {
+  display: inline-block;
+  position: relative;
+}
+.footer-20192 .social li a {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  background-color: var(--primary);
+  color: #fff;
+  margin-right: .5rem;
+}
+.footer-20192 .social li a > .ic {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.footer-20192 .footer-logo {
+  color: #fff;
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+}
+.footer-20192 .copyright {
+  color: #666873;
+  padding: .5rem 0;
+}
+.footer-20192 .cta {
+  padding: 20px;
+  background-color: var(--primary);
+  top: -150px;
+  position: relative;
+}
+.footer-20192 .cta h2,
+.footer-20192 .cta h3 {
+  line-height: 1.5;
+}
+.footer-20192 .cta h3 {
+  font-size: 20px;
+}
