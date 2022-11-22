@@ -40,6 +40,10 @@
   opacity: 0.7;
 }
 
+.error {
+  color: coral;
+}
+
 /*!
  * Bootstrap  v5.2.2 (https://getbootstrap.com/)
  * Copyright 2011-2022 The Bootstrap Authors
