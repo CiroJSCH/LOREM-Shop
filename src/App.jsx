@@ -36,5 +36,6 @@ export default App;
 //* TODO: Slider productos relacionados en ItemDetail
 //* TODO: Banner página principal
 //* TODO: Arreglar lo del id
-// TODO: Orden de compra en Cart (Sacar la tabla y ver donde poner el boton para eliminar)
+//* TODO: Orden de compra en Cart (Sacar la tabla y ver donde poner el boton para eliminar)
 //* TODO: Footer
+// TODO: Completar esquema de validación
