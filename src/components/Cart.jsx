@@ -16,10 +16,10 @@ import summary from "/summary.svg";
 
 const Cart = () => {
   const [cartList, setCartList] = useState([]);
-  const [total, setTotal] = useState(0);
   const [showForm, setShowForm] = useState(false);
 
   const { removeOfCart } = useContext(CartContext);
+  const { calcTotal } = useContext(CartContext);
 
   const navigate = useNavigate();
 
@@ -30,11 +30,6 @@ const Cart = () => {
         ? JSON.parse(localStorage.getItem("cart"))
         : []
     );
-    let tot = 0;
-    JSON.parse(localStorage.getItem("cart")).map((item) => {
-      tot += parseFloat(item.price * item.quantity);
-    });
-    setTotal(tot);
   }, [localStorage.getItem("cart")]);
 
   return (
@@ -63,13 +58,13 @@ const Cart = () => {
                   {showForm ? "COMPLETE" : "SUMMARY"}
                 </h2>
                 {showForm ? (
-                  <ConfirmationForm setShowForm={setShowForm}/>
+                  <ConfirmationForm setShowForm={setShowForm} />
                 ) : (
                   <>
                     {cartList?.map((item) => {
                       return (
                         <div
-                          key={item.num}
+                          key={item.id}
                           className="px-2 py-3 mx-auto w-100 d-flex align-items-center justify-content-between border-bottom"
                         >
                           <img
@@ -102,7 +97,7 @@ const Cart = () => {
                     })}
                     <div className="px-2 py-3 mx-auto w-75 d-flex align-items-center justify-content-between mt-3 fs-3">
                       <p className="text-white">TOTAL:</p>
-                      <p className="text-primary">${total.toFixed(2)}</p>
+                      <p className="text-primary">${calcTotal()}</p>
                     </div>
                     <button className="checkout w-75 mx-auto d-block my-3" onClick={() => setShowForm(true)}>
                       CHECKOUT
