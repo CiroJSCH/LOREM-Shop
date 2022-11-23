@@ -18,8 +18,7 @@ const Cart = () => {
   const [cartList, setCartList] = useState([]);
   const [showForm, setShowForm] = useState(false);
 
-  const { removeOfCart } = useContext(CartContext);
-  const { calcTotal } = useContext(CartContext);
+  const { removeOfCart, calcTotal } = useContext(CartContext);
 
   const navigate = useNavigate();
 
