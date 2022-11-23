@@ -1,20 +1,14 @@
 // Libraries
 import { useEffect, useState } from "react";
-import { useParams, Link } from "react-router-dom";
+import { useParams } from "react-router-dom";
 import { motion } from "framer-motion";
-import {
-  getDoc,
-  doc,
-  query,
-  where,
-  collection,
-  getDocs,
-} from "firebase/firestore";
+import { getDoc, doc } from "firebase/firestore";
 
 // Components
 import DetailCartButton from "./DetailCartButton";
+import ItemDetailRelated from "./ItemDetailRelated";
 
-// Firebasee
+// Firebase
 import { db } from "../firebase/firebaseConfig";
 
 // Styles
@@ -23,37 +17,15 @@ import "../styles/itemDetailContainer.css";
 const ItemDetailContainer = () => {
   let { id } = useParams();
   const [item, setItem] = useState({});
-  const [relatedItems, setRelatedItems] = useState([]);
 
   useEffect(() => {
     const docRef = doc(db, "products", id);
     const fetchData = async () => {
-      try {
-        const docSnap = await getDoc(docRef);
-        setItem(docSnap.data());
-        const q = query(
-          collection(db, "products"),
-          where("category_id", "==", `${docSnap.data().category_id}`)
-        );
-        const fetchRelatedData = async () => {
-          let related = []
-          const querySnapshot = await getDocs(q);
-          querySnapshot.forEach((doc) => (related.push(
-            {
-              id: doc.id,
-              ...doc.data(),
-            }
-          )));
-          related = [...related].sort(() => (Math.random() > 0.5 ? 1 : -1)).slice(0, 4)
-          setRelatedItems(related)
-        };
-        fetchRelatedData();
-      } catch (error) {
-        console.log(error);
-      }
+      const docSnap = await getDoc(docRef);
+      setItem(docSnap.data());
     };
     fetchData();
-  }, []);
+  }, [item.category_id]);
 
   return (
     <>
@@ -79,9 +51,7 @@ const ItemDetailContainer = () => {
                 <h5 className="card-title fs-2">{item.name}</h5>
                 <p className="card-text fs-5 mt-3">{item.description}</p>
                 <ul>
-                  <p className="text-primary card-text fs-5 my-3">
-                    Features
-                  </p>
+                  <p className="text-primary card-text fs-5 my-3">Features</p>
                   {item.features &&
                     Object.keys(item.features).map((feature, index) => {
                       return (
@@ -111,35 +81,7 @@ const ItemDetailContainer = () => {
           </div>
         </div>
       </motion.div>
-      <div className="container mt-5">
-        <h1 className="text-primary fs-1 mb-2 text-sm-center text-md-start featureItem">
-          Related Products
-        </h1>
-        <div className="row">
-          {relatedItems.map((item) => {
-            return (
-              <div className="col-12 col-md-6 col-lg-4 col-xl-3 d-flex justify-content-center align-items-center" key={item.id}>
-                <div
-                  className="card mb-3 bg-dark"
-                  style={{ maxHeigth: "20rem" }}
-                >
-                  <img
-                    className="card-img-top bg-white"
-                    src={item.image}
-                    style={{maxHeight: "20rem", minWidth: "18rem"}}
-                  />
-                  <div className="card-body">
-                    <h5 className="card-title">{item.name}</h5>
-                    <Link to={`/item/${item.id}`} className="btn btn-primary">
-                      View Detail
-                    </Link>
-                  </div>
-                </div>
-              </div>
-            );
-          })}
-        </div>
-      </div>
+      <ItemDetailRelated category_id={item.category_id} />
     </>
   );
 };
