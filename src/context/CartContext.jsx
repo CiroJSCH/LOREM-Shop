@@ -21,7 +21,7 @@ const CartContextProvider = ({ children }) => {
     let tempCart = JSON.parse(localStorage.getItem("cart")) || [];
 
     let inCart = tempCart.find((item) => {
-      return item.num === product.num;
+      return item.id === product.id;
     });
     
     if (!inCart) {
@@ -31,7 +31,7 @@ const CartContextProvider = ({ children }) => {
       setCartList(tempCart);
     } else {
       let actualCart = tempCart.map((item, index) => {
-        if (item.num === product.num) {
+        if (item.id === product.id) {
           parseInt(tempCart[index]["quantity"]) + quantity >= parseInt(tempCart[index]["stock"]) ? 
           (tempCart[index]["quantity"] = parseInt(tempCart[index]["stock"]))
           : 
@@ -56,22 +56,35 @@ const CartContextProvider = ({ children }) => {
       if (result.isConfirmed) {
         localStorage.setItem(
           "cart",
-          JSON.stringify(cartList.filter((item) => item.num !== product.num))
+          JSON.stringify(cartList.filter((item) => item.id !== product.id))
         );
-        setCartList(cartList.filter((item) => item.num !== product.num));
+        setCartList(cartList.filter((item) => item.id !== product.id));
       }
     });
   };
 
-  const calcItemsQuantity = (cartList) => {
+  const calcItemsQuantity = () => {
     return parseInt(
       cartList.map((item) => item.quantity).reduce((a, b) => a + b, 0)
     );
   };
 
+  const calcTotal = () => {
+    let tot = 0;
+    cartList.map((item) => {
+      tot += parseFloat(item.price * item.quantity);
+    });
+    return tot.toFixed(2);
+  }
+
+  const emptyCar = () => {
+    setCartList([]);
+    localStorage.setItem("cart", JSON.stringify([]));
+  }
+
   return (
     <CartContext.Provider
-      value={{ cartList, addToCart, removeOfCart, calcItemsQuantity }}
+      value={{ cartList, addToCart, removeOfCart, calcItemsQuantity, calcTotal, emptyCar }}
     >
       {children}
     </CartContext.Provider>
