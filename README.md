@@ -31,6 +31,19 @@ Este proyecto está desarrollado empleando Vite + React, por lo que para poder e
 * React To Print
 * React Typewriter
 * Sweetalert2
+
+## FUNCIONALIDADES EXTRA 🔩
+
+* Carro de compra con almacenado en LocalStorage
+* Generación de comprobante de pago en PDF
+* Contenedor de items relacionados
+
+## SCREENSHOTS 📷
+
+![Home](https://i.postimg.cc/yxy5g5sz/Captura-de-pantalla-2022-11-24-193620.png)
+![Detalle producto](https://i.postimg.cc/15ybh9rR/Captura-de-pantalla-2022-11-24-193651.png)
+![Carrito de compras](https://i.postimg.cc/DfrRMWsY/Captura-de-pantalla-2022-11-24-193715.png)
+
 ## Autor ✒
 
 Proyecto desarrollado por **Ciro Schapert**
