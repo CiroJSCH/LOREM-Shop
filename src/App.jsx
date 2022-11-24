@@ -39,3 +39,6 @@ export default App;
 //* TODO: Orden de compra en Cart (Sacar la tabla y ver donde poner el boton para eliminar)
 //* TODO: Footer
 //* TODO: Completar esquema de validación
+//* TODO: Generar orden de compra con React PDF
+// TODO: Revisar código
+// TODO: Readme
