@@ -40,5 +40,6 @@ export default App;
 //* TODO: Footer
 //* TODO: Completar esquema de validación
 //* TODO: Generar orden de compra con React PDF
+//* TODO: Readme
 // TODO: Revisar código
-// TODO: Readme
+// TODO: Hacer Deploy
