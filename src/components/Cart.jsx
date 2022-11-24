@@ -5,6 +5,7 @@ import { useNavigate } from "react-router";
 // Context
 import { CartContext } from "../context/CartContext";
 
+// Components
 import ConfirmationForm from "./ConfirmationForm";
 
 // Icons
@@ -15,21 +16,15 @@ import imgEmptyCart from "../img/carro-vacio.png";
 import summary from "/summary.svg";
 
 const Cart = () => {
-  const [cartList, setCartList] = useState([]);
   const [showForm, setShowForm] = useState(false);
 
-  const { removeOfCart, calcTotal } = useContext(CartContext);
+  const { removeOfCart, calcTotal, cartList } = useContext(CartContext);
 
   const navigate = useNavigate();
 
   useEffect(() => {
     document.title = "Lorem Shop | Cart";
-    setCartList(
-      localStorage.getItem("cart")
-        ? JSON.parse(localStorage.getItem("cart"))
-        : []
-    );
-  }, [localStorage.getItem("cart")]);
+  }, []);
 
   return (
     <div>
@@ -53,9 +48,11 @@ const Cart = () => {
                   src={summary}
                   alt=""
                 />
-                <h2 className="fs-2 text-center mx-auto text-white w-75 py-3 border-top border-primary">
-                  {showForm ? "COMPLETE" : "SUMMARY"}
-                </h2>
+                {!showForm && (
+                  <h2 className="fs-2 text-center mx-auto text-white w-75 py-3 border-top border-primary">
+                    SUMMARY
+                  </h2>
+                )}
                 {showForm ? (
                   <ConfirmationForm setShowForm={setShowForm} />
                 ) : (
@@ -98,7 +95,10 @@ const Cart = () => {
                       <p className="text-white">TOTAL:</p>
                       <p className="text-primary">${calcTotal()}</p>
                     </div>
-                    <button className="checkout w-75 mx-auto d-block my-3" onClick={() => setShowForm(true)}>
+                    <button
+                      className="checkout w-75 mx-auto d-block my-3"
+                      onClick={() => setShowForm(true)}
+                    >
                       CHECKOUT
                     </button>
                   </>
