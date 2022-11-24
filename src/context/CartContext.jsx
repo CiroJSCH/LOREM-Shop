@@ -77,14 +77,14 @@ const CartContextProvider = ({ children }) => {
     return tot.toFixed(2);
   }
 
-  const emptyCar = () => {
+  const emptyCart = () => {
     setCartList([]);
     localStorage.setItem("cart", JSON.stringify([]));
   }
 
   return (
     <CartContext.Provider
-      value={{ cartList, addToCart, removeOfCart, calcItemsQuantity, calcTotal, emptyCar }}
+      value={{ cartList, addToCart, removeOfCart, calcItemsQuantity, calcTotal, emptyCart }}
     >
       {children}
     </CartContext.Provider>
