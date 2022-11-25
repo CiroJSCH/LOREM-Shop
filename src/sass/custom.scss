@@ -1,9 +1,5 @@
 $font-family-monospace: "Prompt", sans-serif;
 
-.nav-link {
-  font-family: "Overpass", sans-serif;
-}
-
 .btn {
   font-family: "Titillium Web", sans-serif !important;
 }
@@ -28,7 +24,8 @@ $font-family-monospace: "Prompt", sans-serif;
 .featureItem,
 .badge,
 .table,
-.swalert {
+.swalert,
+.nav-link {
   font-family: "Overpass", sans-serif;
 }
 
