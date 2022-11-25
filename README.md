@@ -2,6 +2,7 @@
 # ⚛ E-COMMERCE LOREM SHOP ⚛
 
 Tienda online de productos para programadores. Proyecto creado como parte del curso de React.JS brindado por **Coderhouse**.
+Cuenta con backend empleando Firebase, permitiendo obtener una lista de productos, ordenarlos por categoría y acceder al detalle de cada uno. Se pueden agregar productos al carrito de compras, rellenar datos en un formulario y generar un sencillo comprobante de pago para simular una compra.
 
 ## Instalación ✅
 
