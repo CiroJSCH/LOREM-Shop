@@ -30,6 +30,11 @@ const ConfirmationForm = ({ setShowForm }) => {
   const [idOrder, setIdOrder] = useState("");
   const { cartList, calcTotal } = useContext(CartContext);
 
+  /**
+   * Create an order with customer data.
+   * @param {Object} values Form data
+   * @param {Object} formikHelpers Formik object
+   */
   const createOrder = (values, formikHelpers) => {
     let order = {
       buyer: {
@@ -47,6 +52,10 @@ const ConfirmationForm = ({ setShowForm }) => {
       total: calcTotal(),
     };
 
+    /**
+     * Create a reference in firestore to store the order
+     * @returns {DocumentReference}
+     */
     const orderInFirestore = async () => {
       const newOrderRef = doc(collection(db, "orders"));
       await setDoc(newOrderRef, order);

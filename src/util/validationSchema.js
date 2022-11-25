@@ -1,7 +1,8 @@
+// Libraries
 import * as yup from "yup";
 
-const onlyLetters = (value) => /^[A-Za-z ]+$/.test(value);
-const onlyNumbers = (value) => /^[\d()\+]+$/.test(value);
+const onlyLetters = (value) => /^[A-Za-z ]+$/.test(value); // Letters from A to Z and space
+const onlyNumbers = (value) => /^[\d()\+]+$/.test(value); // Numbers, parenthesis and + symbol
 
 export const validationSchema = yup.object({
   name: yup

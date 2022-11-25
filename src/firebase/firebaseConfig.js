@@ -13,5 +13,4 @@ const firebaseConfig = {
 const app = initializeApp(firebaseConfig);
 export const db = getFirestore(app);
 
-// Para crear la colección de los productos
 export const dbRef = collection(db, "products");

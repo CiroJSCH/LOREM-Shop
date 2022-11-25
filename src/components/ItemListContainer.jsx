@@ -16,6 +16,9 @@ const ItemListContainer = () => {
 
   useEffect(() => {
     document.title = `Lorem Shop | ${categoriesTitle[category_id]}`;
+    /**
+     * Get all the items from products collection
+     */
     async function fetchData() {
       const querySnapshot = await getDocs(collection(db, "products"));
       const dataFromFirestore = querySnapshot.docs.map((product) => ({

@@ -10,6 +10,7 @@ const ItemDetailRelated = ({ category_id }) => {
   const [relatedItems, setRelatedItems] = useState([]);
 
   useEffect(() => {
+    // We get the items of the same category
     const q = query(
       collection(db, "products"),
       where("category_id", "==", `${category_id}`)
@@ -23,6 +24,7 @@ const ItemDetailRelated = ({ category_id }) => {
           ...doc.data(),
         })
       );
+      // Save only 4 random elements
       related = [...related]
         .sort(() => (Math.random() > 0.5 ? 1 : -1))
         .slice(0, 4);
