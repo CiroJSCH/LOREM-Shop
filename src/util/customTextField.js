@@ -6,6 +6,14 @@ const CustomTextField = styled(TextField)`
   width: 100%;
   color: white;
 
+  & .MuiFormLabel-root {
+    color: white;
+  }
+
+  & .MuiInputLabel-root.Mui-focused {
+    color: white;
+  }
+
   & .MuiOutlinedInput-root {
     &:hover fieldset {
       border-color: white;
@@ -18,20 +26,8 @@ const CustomTextField = styled(TextField)`
     border-color: #20c997;
   }
 
-  & .css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root {
-    color: white;
-    &:hover fieldset: {
-      border-color: red;
-    }
-  }
-  & .css-14s5rfu-MuiFormLabel-root-MuiInputLabel-root {
-    color: #20c997;
-  }
-  & .css-1sumxir-MuiFormLabel-root-MuiInputLabel-root.Mui-focused {
-    color: white;
-  }
-  & .css-1sumxir-MuiFormLabel-root-MuiInputLabel-root {
-    color: white;
+  & .MuiOutlinedInput-root {
+    color : white;
   }
 `;
 
