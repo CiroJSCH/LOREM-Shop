@@ -39,7 +39,7 @@ const ItemListContainer = () => {
   return (
     <>
       {
-        <h1 className="text-primary fs-1 mt-5 text-sm-center featureItem">
+        <h1 className="text-primary fs-1 mt-5 text-center featureItem">
           {!category_id ? "All products" : categoriesTitle[category_id]}
         </h1>
       }

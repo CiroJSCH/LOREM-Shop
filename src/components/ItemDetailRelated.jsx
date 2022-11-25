@@ -49,7 +49,7 @@ const ItemDetailRelated = ({ category_id }) => {
                 <img
                   className="card-img-top bg-white"
                   src={item.image}
-                  style={{ height: "20rem", minWidth: "14rem" }}
+                  style={{ height: "20rem", minWidth: "16rem" }}
                 />
                 <div className="card-body">
                   <h5 className="card-title">{item.name}</h5>
