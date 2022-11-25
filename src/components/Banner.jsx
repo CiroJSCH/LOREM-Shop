@@ -1,6 +1,8 @@
+// Libraries
 import { Typewriter } from "react-simple-typewriter";
 import { Link } from "react-router-dom";
 
+// Components
 import ItemListContainer from "./ItemListContainer"
 
 const Banner = () => {
