@@ -1,8 +1,5 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Overpass:wght@300&family=Prompt:ital,wght@1,300&family=Titillium+Web:wght@300&display=swap");
-.nav-link {
-  font-family: "Overpass", sans-serif;
-}
-
 .btn {
   font-family: "Titillium Web", sans-serif !important;
 }
@@ -27,7 +24,8 @@
 .featureItem,
 .badge,
 .table,
-.swalert {
+.swalert,
+.nav-link {
   font-family: "Overpass", sans-serif;
 }
 
